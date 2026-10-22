@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T22:28:39+00:00",
+ "generated": "2026-10-22T22:38:42+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,36 +16,45 @@
   "linux": 44
  },
  "done": {
-  "windows": 3,
-  "linux": 10
+  "windows": 5,
+  "linux": 13
  },
  "status": {
   "windows": {
-   "finished": 3
+   "finished": 5
   },
   "linux": {
-   "finished": 10
+   "finished": 13
   }
  },
  "telemetry_complete": {
-  "windows": 3,
-  "linux": 10
+  "windows": 5,
+  "linux": 13
  },
  "payload_behaviour": {
-  "windows": 1,
-  "linux": 7
+  "windows": 2,
+  "linux": 10
  },
  "persistence": {
   "windows": 0,
-  "linux": 4
+  "linux": 5
  },
  "network_intent": {
-  "windows": 0,
+  "windows": 1,
   "linux": 2
  },
  "by_category": {
   "windows": {
+   "admin-script-batch": {
+    "runs": 1,
+    "finished": 1
+   },
    "admin-script-powershell": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "sync-installer": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
@@ -62,13 +71,14 @@
     "payload_behaviour": 3
    },
    "go-cli": {
-    "runs": 1,
-    "finished": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 1
    },
    "go-crypto": {
-    "runs": 1,
-    "finished": 1,
-    "payload_behaviour": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
    },
    "go-network": {
     "runs": 2,
@@ -80,15 +90,15 @@
     "finished": 1
    },
    "rust-cli": {
-    "runs": 2,
-    "finished": 2,
-    "payload_behaviour": 1
+    "runs": 3,
+    "finished": 3,
+    "payload_behaviour": 2
    }
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 3,
-  "v3/linux": 10,
+  "v3/windows": 5,
+  "v3/linux": 13,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

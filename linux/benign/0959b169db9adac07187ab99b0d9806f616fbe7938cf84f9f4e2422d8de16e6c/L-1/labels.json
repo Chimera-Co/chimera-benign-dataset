@@ -1,0 +1,37 @@
+{
+ "key": "0959b169db9adac07187ab99b0d9806f616fbe7938cf84f9f4e2422d8de16e6c/L/1",
+ "sha256": "0959b169db9adac07187ab99b0d9806f616fbe7938cf84f9f4e2422d8de16e6c",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "9b590e97-75cc-4f55-b9f1-b53e31c6d3f9",
+ "submitted": "2026-10-22T22:30:38.233787+00:00",
+ "completed": "2026-10-22T22:33:53.369482+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 3,
+ "persistence": true,
+ "persistence_evidence": [
+  "/home/arjun/.bashrc"
+ ],
+ "file_drops": 5,
+ "file_drop_evidence": [
+  "/home/arjun/.bashrc",
+  "/home/arjun/.local/share/zoxide",
+  "/home/arjun/.local/share/zoxide/db.zo",
+  "/home/arjun/.local/share/zoxide/tmp_1uPmwKXdXzAk",
+  "/home/arjun/.local/share/zoxide/tmp_5HycvQKBy1pL"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.07,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "zoxide 0.10.0",
+ "role": "benign"
+}

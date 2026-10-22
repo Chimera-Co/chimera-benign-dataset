@@ -1,0 +1,96 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "0959b169db9adac07187ab99b0d9806f616fbe7938cf84f9f4e2422d8de16e6c",
+    "file_name": "zoxide",
+    "file_type": "ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped",
+    "size_bytes": 1233512
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 4,
+    "max_depth": 1,
+    "names": [
+      "/usr/bin/dash",
+      "/home/arjun/Downloads/zoxide"
+    ],
+    "command_lines": [
+      "/bin/sh -c /home/arjun/Downloads/zoxide add /etc /usr; /home/arjun/Downloads/zoxide query -l; /home/arjun/Downloads/zoxide init bash >> $HOME/.bashrc",
+      "/home/arjun/Downloads/zoxide add /etc /usr",
+      "/home/arjun/Downloads/zoxide query -l",
+      "/home/arjun/Downloads/zoxide init bash"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 4,
+    "mprotect": 6,
+    "getuid": 1,
+    "geteuid": 2,
+    "vfork": 3,
+    "ftruncate": 2,
+    "rename": 2,
+    "fchown": 1
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "mprotect",
+    "ftruncate",
+    "rename",
+    "vfork",
+    "execve",
+    "mprotect",
+    "ftruncate",
+    "fchown",
+    "rename",
+    "vfork",
+    "execve",
+    "mprotect"
+  ],
+  "files": {
+    "created": 0,
+    "written": 5,
+    "deleted": 2,
+    "paths": [
+      "/home/arjun/.bashrc",
+      "/home/arjun/.local/share/zoxide",
+      "/home/arjun/.local/share/zoxide/db.zo",
+      "/home/arjun/.local/share/zoxide/tmp_1uPmwKXdXzAk",
+      "/home/arjun/.local/share/zoxide/tmp_5HycvQKBy1pL"
+    ]
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}
