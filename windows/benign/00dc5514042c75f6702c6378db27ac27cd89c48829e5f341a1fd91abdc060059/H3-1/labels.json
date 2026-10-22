@@ -1,0 +1,34 @@
+{
+ "key": "00dc5514042c75f6702c6378db27ac27cd89c48829e5f341a1fd91abdc060059/H3/1",
+ "sha256": "00dc5514042c75f6702c6378db27ac27cd89c48829e5f341a1fd91abdc060059",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "fba5c952-b42d-470d-94b4-a48ab5c7c4cf",
+ "submitted": "2026-10-22T22:39:24.598686+00:00",
+ "completed": "2026-10-22T22:43:09.744574+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": true,
+ "persistence_evidence": [
+  "\\REGISTRY\\MACHINE\\SOFTWARE\\WOW6432NODE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUNONCE\\{7A09B984-5878-40C4-95F4-115017AD9F0C}"
+ ],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "C:\\Windows\\TEMP\\{DF2ECAA9-D21D-46CD-8C58-3B9443E4056E}\\.ba\\wixstdba.exe",
+  "C:\\Windows\\TEMP\\{DF2ECAA9-D21D-46CD-8C58-3B9443E4056E}\\.be\\tailscale-setup-1.104.2.exe"
+ ],
+ "dns_queries": 2,
+ "connections": 18,
+ "http_requests": 7,
+ "network_intent": true,
+ "sample_lifetime_s": 34.93,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "tailscale 1.104.2",
+ "role": "benign"
+}

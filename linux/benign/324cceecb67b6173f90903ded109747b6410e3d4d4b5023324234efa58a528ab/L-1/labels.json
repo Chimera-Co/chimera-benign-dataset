@@ -1,0 +1,32 @@
+{
+ "key": "324cceecb67b6173f90903ded109747b6410e3d4d4b5023324234efa58a528ab/L/1",
+ "sha256": "324cceecb67b6173f90903ded109747b6410e3d4d4b5023324234efa58a528ab",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "c8a81da4-0094-46d6-a341-0ab041904aa2",
+ "submitted": "2026-10-22T22:40:23.968519+00:00",
+ "completed": "2026-10-22T22:43:44.099803+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "/tmp/disk-report.json",
+  "/tmp/largest.csv"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.02,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "disk-usage-report 1.0",
+ "role": "benign"
+}
