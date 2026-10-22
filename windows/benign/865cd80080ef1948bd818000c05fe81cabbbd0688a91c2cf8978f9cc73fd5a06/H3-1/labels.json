@@ -1,0 +1,33 @@
+{
+ "key": "865cd80080ef1948bd818000c05fe81cabbbd0688a91c2cf8978f9cc73fd5a06/H3/1",
+ "sha256": "865cd80080ef1948bd818000c05fe81cabbbd0688a91c2cf8978f9cc73fd5a06",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "5b5f1479-9416-4cea-8257-f71217b12bdc",
+ "submitted": "2026-10-22T22:47:04.136035+00:00",
+ "completed": "2026-10-22T22:51:04.680363+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Telegram Desktop\\Telegram.lnk",
+  "C:\\Users\\Shreyas\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Telegram Desktop\\Uninstall Telegram.lnk",
+  "C:\\Users\\Shreyas\\Desktop\\Telegram.lnk"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 34.78,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "telegram 7.3.3",
+ "role": "benign"
+}

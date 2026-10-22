@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T22:48:45+00:00",
+ "generated": "2026-10-22T22:58:48+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,23 +16,23 @@
   "linux": 44
  },
  "done": {
-  "windows": 8,
-  "linux": 16
+  "windows": 11,
+  "linux": 19
  },
  "status": {
   "windows": {
-   "finished": 8
+   "finished": 11
   },
   "linux": {
-   "finished": 16
+   "finished": 19
   }
  },
  "telemetry_complete": {
-  "windows": 8,
-  "linux": 16
+  "windows": 11,
+  "linux": 19
  },
  "payload_behaviour": {
-  "windows": 4,
+  "windows": 7,
   "linux": 11
  },
  "persistence": {
@@ -40,7 +40,7 @@
   "linux": 5
  },
  "network_intent": {
-  "windows": 3,
+  "windows": 4,
   "linux": 2
  },
  "by_category": {
@@ -54,14 +54,25 @@
     "finished": 2,
     "payload_behaviour": 2
    },
+   "installer-inno": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "remote-access-installer": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "sync-installer": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
    },
    "sysinternals-cli": {
-    "runs": 3,
-    "finished": 3
+    "runs": 4,
+    "finished": 4,
+    "payload_behaviour": 1
    },
    "vpn-installer": {
     "runs": 1,
@@ -81,8 +92,8 @@
     "payload_behaviour": 3
    },
    "go-cli": {
-    "runs": 2,
-    "finished": 2,
+    "runs": 3,
+    "finished": 3,
     "payload_behaviour": 1
    },
    "go-crypto": {
@@ -100,15 +111,15 @@
     "finished": 1
    },
    "rust-cli": {
-    "runs": 5,
-    "finished": 5,
+    "runs": 7,
+    "finished": 7,
     "payload_behaviour": 2
    }
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 8,
-  "v3/linux": 16,
+  "v3/windows": 11,
+  "v3/linux": 19,
   "earlier/linux": 12,
   "earlier/windows": 30
  }
