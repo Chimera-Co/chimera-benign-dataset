@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T22:18:36+00:00",
+ "generated": "2026-10-22T22:28:39+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,38 +16,54 @@
   "linux": 44
  },
  "done": {
-  "windows": 0,
-  "linux": 7
+  "windows": 3,
+  "linux": 10
  },
  "status": {
-  "windows": {},
+  "windows": {
+   "finished": 3
+  },
   "linux": {
-   "finished": 7
+   "finished": 10
   }
  },
  "telemetry_complete": {
-  "windows": 0,
-  "linux": 7
+  "windows": 3,
+  "linux": 10
  },
  "payload_behaviour": {
-  "windows": 0,
-  "linux": 6
+  "windows": 1,
+  "linux": 7
  },
  "persistence": {
   "windows": 0,
-  "linux": 3
+  "linux": 4
  },
  "network_intent": {
   "windows": 0,
-  "linux": 1
+  "linux": 2
  },
  "by_category": {
-  "windows": {},
+  "windows": {
+   "admin-script-powershell": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "sysinternals-cli": {
+    "runs": 2,
+    "finished": 2
+   }
+  },
   "linux": {
    "admin-script-shell": {
-    "runs": 2,
-    "finished": 2,
-    "payload_behaviour": 2
+    "runs": 3,
+    "finished": 3,
+    "payload_behaviour": 3
+   },
+   "go-cli": {
+    "runs": 1,
+    "finished": 1
    },
    "go-crypto": {
     "runs": 1,
@@ -59,6 +75,10 @@
     "finished": 2,
     "payload_behaviour": 2
    },
+   "go-server": {
+    "runs": 1,
+    "finished": 1
+   },
    "rust-cli": {
     "runs": 2,
     "finished": 2,
@@ -67,7 +87,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/linux": 7,
+  "v3/windows": 3,
+  "v3/linux": 10,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

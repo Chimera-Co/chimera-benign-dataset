@@ -1,0 +1,32 @@
+{
+ "key": "5ca055ccf04d0811593c356e528e222b3c5a0da2b258e073ba099f5ca3228e77/H3/1",
+ "sha256": "5ca055ccf04d0811593c356e528e222b3c5a0da2b258e073ba099f5ca3228e77",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "3938c3bf-f63e-4589-91ec-9f2e0706815c",
+ "submitted": "2026-10-22T22:12:40.104878+00:00",
+ "completed": "2026-10-22T22:20:10.437506+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 3,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_hfjlubfh.llg.ps1",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_n2mxwwts.sz5.psm1"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 40.02,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "backup-documents 1.0",
+ "role": "benign"
+}

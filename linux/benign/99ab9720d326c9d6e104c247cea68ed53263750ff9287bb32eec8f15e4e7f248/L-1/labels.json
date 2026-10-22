@@ -1,0 +1,37 @@
+{
+ "key": "99ab9720d326c9d6e104c247cea68ed53263750ff9287bb32eec8f15e4e7f248/L/1",
+ "sha256": "99ab9720d326c9d6e104c247cea68ed53263750ff9287bb32eec8f15e4e7f248",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "6dfef34d-a22e-450e-a816-3f9eaed24b05",
+ "submitted": "2026-10-22T22:17:15.976897+00:00",
+ "completed": "2026-10-22T22:20:36.111039+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 8,
+ "persistence": true,
+ "persistence_evidence": [
+  "/home/arjun/.ssh/authorized_keys"
+ ],
+ "file_drops": 5,
+ "file_drop_evidence": [
+  "/home/arjun/.ssh",
+  "/home/arjun/.ssh/authorized_keys",
+  "/home/arjun/.ssh/id_ed25519",
+  "/home/arjun/.ssh/id_ed25519.pub",
+  "/tmp/team.pub"
+ ],
+ "dns_queries": 1,
+ "connections": 2,
+ "http_requests": 1,
+ "network_intent": true,
+ "sample_lifetime_s": 0.51,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "ssh-key-sync 1.0",
+ "role": "benign"
+}
