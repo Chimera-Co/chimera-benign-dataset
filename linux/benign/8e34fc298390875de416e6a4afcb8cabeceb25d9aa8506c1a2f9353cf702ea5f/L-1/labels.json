@@ -1,0 +1,31 @@
+{
+ "key": "8e34fc298390875de416e6a4afcb8cabeceb25d9aa8506c1a2f9353cf702ea5f/L/1",
+ "sha256": "8e34fc298390875de416e6a4afcb8cabeceb25d9aa8506c1a2f9353cf702ea5f",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "9e24f3b1-a26d-4db6-bf29-45537d09086a",
+ "submitted": "2026-10-22T23:07:03.550053+00:00",
+ "completed": "2026-10-22T23:10:23.867149+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/tmp/t.yaml"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.25,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "yq 4.54.1",
+ "role": "benign"
+}

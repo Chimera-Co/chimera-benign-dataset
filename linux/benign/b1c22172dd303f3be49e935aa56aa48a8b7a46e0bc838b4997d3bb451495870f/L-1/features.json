@@ -1,0 +1,80 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "b1c22172dd303f3be49e935aa56aa48a8b7a46e0bc838b4997d3bb451495870f",
+    "file_name": "jq",
+    "file_type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=0ebe5e235d5742c8130152e28cb1d081554d06bb, for GNU/Linux 3.2.0, stripped",
+    "size_bytes": 2267912
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 4,
+    "max_depth": 1,
+    "names": [
+      "/usr/bin/dash",
+      "/home/arjun/Downloads/jq"
+    ],
+    "command_lines": [
+      "/bin/sh -c echo {\"a\":[1,2,3],\"b\":\"x\"} | /home/arjun/Downloads/jq .a|add; /home/arjun/Downloads/jq -n env|keys",
+      "/home/arjun/Downloads/jq .a|add",
+      "/home/arjun/Downloads/jq -n env|keys"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 3,
+    "mprotect": 5,
+    "getuid": 1,
+    "geteuid": 2,
+    "clone": 2,
+    "vfork": 1
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "clone",
+    "clone",
+    "execve",
+    "mprotect",
+    "vfork",
+    "execve",
+    "mprotect"
+  ],
+  "files": {
+    "created": 0,
+    "written": 0,
+    "deleted": 0,
+    "paths": []
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}

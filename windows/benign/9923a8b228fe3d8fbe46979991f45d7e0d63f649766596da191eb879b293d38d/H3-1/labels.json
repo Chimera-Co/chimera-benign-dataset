@@ -1,0 +1,39 @@
+{
+ "key": "9923a8b228fe3d8fbe46979991f45d7e0d63f649766596da191eb879b293d38d/H3/1",
+ "sha256": "9923a8b228fe3d8fbe46979991f45d7e0d63f649766596da191eb879b293d38d",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "6bfb50fc-5936-42ef-ae1c-fd728a946a86",
+ "submitted": "2026-10-22T23:10:07.387495+00:00",
+ "completed": "2026-10-22T23:13:57.612318+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 14,
+ "persistence": true,
+ "persistence_evidence": [
+  "\\REGISTRY\\MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\KeePass 2 PreLoad"
+ ],
+ "file_drops": 7,
+ "file_drop_evidence": [
+  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\KeePass 2.lnk",
+  "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Temp\\1128-0\\System.Deployment.dll",
+  "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Temp\\1234-0\\System.Runtime.Serialization.Formatters.Soap.dll",
+  "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Temp\\1794-0\\System.Data.SqlXml.dll",
+  "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Temp\\1d5c-0\\System.Security.dll",
+  "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Temp\\a58-0\\System.Numerics.dll",
+  "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Temp\\dc8-0\\KeePass.exe"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 84.57,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "keepass 2.61.1",
+ "role": "benign"
+}

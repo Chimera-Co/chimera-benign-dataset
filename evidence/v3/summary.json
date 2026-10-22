@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T23:08:51+00:00",
+ "generated": "2026-10-22T23:18:54+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,32 +16,32 @@
   "linux": 44
  },
  "done": {
-  "windows": 13,
-  "linux": 22
+  "windows": 16,
+  "linux": 25
  },
  "status": {
   "windows": {
-   "finished": 13
+   "finished": 16
   },
   "linux": {
-   "finished": 22
+   "finished": 25
   }
  },
  "telemetry_complete": {
-  "windows": 13,
-  "linux": 22
+  "windows": 16,
+  "linux": 25
  },
  "payload_behaviour": {
-  "windows": 8,
-  "linux": 13
+  "windows": 11,
+  "linux": 15
  },
  "persistence": {
-  "windows": 1,
+  "windows": 2,
   "linux": 5
  },
  "network_intent": {
-  "windows": 4,
-  "linux": 2
+  "windows": 6,
+  "linux": 3
  },
  "by_category": {
   "windows": {
@@ -54,16 +54,26 @@
     "finished": 2,
     "payload_behaviour": 2
    },
+   "browser-installer": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "go-backup": {
     "runs": 1,
     "finished": 1
    },
    "installer-inno": {
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
+   },
+   "installer-msi-wrapper": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
    },
-   "installer-msi-wrapper": {
+   "network-cli": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
@@ -100,10 +110,14 @@
     "finished": 3,
     "payload_behaviour": 3
    },
+   "c-cli": {
+    "runs": 1,
+    "finished": 1
+   },
    "go-cli": {
-    "runs": 4,
-    "finished": 4,
-    "payload_behaviour": 2
+    "runs": 5,
+    "finished": 5,
+    "payload_behaviour": 3
    },
    "go-crypto": {
     "runs": 2,
@@ -111,9 +125,9 @@
     "payload_behaviour": 2
    },
    "go-network": {
-    "runs": 2,
-    "finished": 2,
-    "payload_behaviour": 2
+    "runs": 3,
+    "finished": 3,
+    "payload_behaviour": 3
    },
    "go-server": {
     "runs": 2,
@@ -132,8 +146,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 13,
-  "v3/linux": 22,
+  "v3/windows": 16,
+  "v3/linux": 25,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

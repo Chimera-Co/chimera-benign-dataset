@@ -1,11 +1,11 @@
-# Benign batch v3 (generated 2026-10-22T23:08:51+00:00)
+# Benign batch v3 (generated 2026-10-22T23:18:54+00:00)
 
 Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 
 | OS | Done / scheduled | Finished | Telemetry complete | Payload behaviour | Persistence | Network intent | Other statuses |
 |---|---|---|---|---|---|---|---|
-| windows | 13 / 75 | 13 | 13 | 8 | 1 | 4 | – |
-| linux | 22 / 44 | 22 | 22 | 13 | 5 | 2 | – |
+| windows | 16 / 75 | 16 | 16 | 11 | 2 | 6 | – |
+| linux | 25 / 44 | 25 | 25 | 15 | 5 | 3 | – |
 
 ## Runs by category
 
@@ -13,18 +13,21 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 |---|---|---|---|---|
 | windows | admin-script-batch | 1 | 1 | 0 |
 | windows | admin-script-powershell | 2 | 2 | 2 |
+| windows | browser-installer | 1 | 1 | 1 |
 | windows | go-backup | 1 | 1 | 0 |
-| windows | installer-inno | 1 | 1 | 1 |
+| windows | installer-inno | 2 | 2 | 2 |
 | windows | installer-msi-wrapper | 1 | 1 | 1 |
+| windows | network-cli | 1 | 1 | 1 |
 | windows | remote-access-installer | 1 | 1 | 1 |
 | windows | sync-installer | 1 | 1 | 1 |
 | windows | sysinternals-cli | 4 | 4 | 1 |
 | windows | vpn-installer | 1 | 1 | 1 |
 | linux | admin-script-python | 1 | 1 | 1 |
 | linux | admin-script-shell | 3 | 3 | 3 |
-| linux | go-cli | 4 | 4 | 2 |
+| linux | c-cli | 1 | 1 | 0 |
+| linux | go-cli | 5 | 5 | 3 |
 | linux | go-crypto | 2 | 2 | 2 |
-| linux | go-network | 2 | 2 | 2 |
+| linux | go-network | 3 | 3 | 3 |
 | linux | go-server | 2 | 2 | 1 |
 | linux | rust-cli | 7 | 7 | 2 |
 | linux | rust-server | 1 | 1 | 0 |
@@ -38,6 +41,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | bashrc-setup 1.0 | admin-script-shell | finished | yes | yes | yes | 7 | no |
 | linux | bat 0.26.1 | rust-cli | finished | yes | no | no | 1 | no |
 | linux | cloudflared 2026.10.3 | go-network | finished | yes | yes | no | 1 | yes |
+| linux | croc 11.5.5 | go-network | finished | yes | yes | no | 1 | yes |
 | linux | delta 0.20.1 | rust-cli | finished | yes | no | no | 4 | no |
 | linux | disk-usage-report 1.0 | admin-script-python | finished | yes | yes | no | 2 | no |
 | linux | duf 0.9.1 | go-cli | finished | yes | no | no | 1 | no |
@@ -47,6 +51,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | gdu 5.38.0 | go-cli | finished | yes | no | no | 1 | no |
 | linux | glow 3.0.0 | go-cli | finished | yes | yes | no | 1 | no |
 | linux | hugo 0.168.0 | go-cli | finished | yes | yes | no | 2 | no |
+| linux | jq 1.8.2 | c-cli | finished | yes | no | no | 3 | no |
 | linux | miniserve 0.35.0 | rust-server | finished | yes | no | no | 1 | no |
 | linux | mkcert 1.4.4 | go-crypto | finished | yes | yes | no | 3 | no |
 | linux | navi 2.24.0 | rust-cli | finished | yes | yes | yes | 2 | no |
@@ -54,10 +59,14 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | ssh-key-sync 1.0 | admin-script-shell | finished | yes | yes | yes | 8 | yes |
 | linux | traefik 3.7.16 | go-server | finished | yes | no | no | 1 | no |
 | linux | yazi 26.9.1 | rust-cli | finished | yes | no | no | 2 | no |
+| linux | yq 4.54.1 | go-cli | finished | yes | yes | no | 1 | no |
 | linux | zoxide 0.10.0 | rust-cli | finished | yes | yes | yes | 3 | no |
 | windows | accesschk latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | backup-documents 1.0 | admin-script-powershell | finished | yes | yes | no | 3 | no |
+| windows | curl 8.23.0 | network-cli | finished | yes | yes | no | 2 | yes |
 | windows | dropbox 274.4.4905 | sync-installer | finished | yes | yes | no | 5 | yes |
+| windows | firefox 158.0.1 | browser-installer | finished | yes | yes | no | 11 | yes |
+| windows | keepass 2.61.1 | installer-inno | finished | yes | yes | yes | 14 | no |
 | windows | listdlls latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | log-collector 1.0 | admin-script-batch | finished | yes | no | no | 6 | no |
 | windows | psinfo latest | sysinternals-cli | finished | yes | no | no | 1 | no |
