@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T22:58:48+00:00",
+ "generated": "2026-10-22T23:08:51+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,24 +16,24 @@
   "linux": 44
  },
  "done": {
-  "windows": 11,
-  "linux": 19
+  "windows": 13,
+  "linux": 22
  },
  "status": {
   "windows": {
-   "finished": 11
+   "finished": 13
   },
   "linux": {
-   "finished": 19
+   "finished": 22
   }
  },
  "telemetry_complete": {
-  "windows": 11,
-  "linux": 19
+  "windows": 13,
+  "linux": 22
  },
  "payload_behaviour": {
-  "windows": 7,
-  "linux": 11
+  "windows": 8,
+  "linux": 13
  },
  "persistence": {
   "windows": 1,
@@ -54,7 +54,16 @@
     "finished": 2,
     "payload_behaviour": 2
    },
+   "go-backup": {
+    "runs": 1,
+    "finished": 1
+   },
    "installer-inno": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "installer-msi-wrapper": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
@@ -92,9 +101,9 @@
     "payload_behaviour": 3
    },
    "go-cli": {
-    "runs": 3,
-    "finished": 3,
-    "payload_behaviour": 1
+    "runs": 4,
+    "finished": 4,
+    "payload_behaviour": 2
    },
    "go-crypto": {
     "runs": 2,
@@ -107,19 +116,24 @@
     "payload_behaviour": 2
    },
    "go-server": {
-    "runs": 1,
-    "finished": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 1
    },
    "rust-cli": {
     "runs": 7,
     "finished": 7,
     "payload_behaviour": 2
+   },
+   "rust-server": {
+    "runs": 1,
+    "finished": 1
    }
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 11,
-  "v3/linux": 19,
+  "v3/windows": 13,
+  "v3/linux": 22,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

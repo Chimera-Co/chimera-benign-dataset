@@ -1,0 +1,31 @@
+{
+ "key": "6176aa454376cd4efc52e78a6d10d5013bb901476e5b68e93b30344b7bf18f86/H3/1",
+ "sha256": "6176aa454376cd4efc52e78a6d10d5013bb901476e5b68e93b30344b7bf18f86",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "244f57c5-20aa-4ddb-8d1f-200adf283bf4",
+ "submitted": "2026-10-22T22:58:40.599273+00:00",
+ "completed": "2026-10-22T23:02:31.676707+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\7zS87366DDA\\Installer.exe"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 31.26,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "zoom 6.6.11",
+ "role": "benign"
+}
