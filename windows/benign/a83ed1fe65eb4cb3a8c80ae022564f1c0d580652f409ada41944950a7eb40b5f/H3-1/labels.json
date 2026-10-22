@@ -1,0 +1,35 @@
+{
+ "key": "a83ed1fe65eb4cb3a8c80ae022564f1c0d580652f409ada41944950a7eb40b5f/H3/1",
+ "sha256": "a83ed1fe65eb4cb3a8c80ae022564f1c0d580652f409ada41944950a7eb40b5f",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "711a7168-adef-4623-a283-605f9aa71678",
+ "submitted": "2026-10-20T17:05:10.774254+00:00",
+ "completed": "2026-10-20T17:07:45.918932+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 8,
+ "persistence": true,
+ "persistence_evidence": [
+  "\\REGISTRY\\USER\\S-1-5-21-518820170-3810429016-285673562-1001\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\ContosoHelpdesk"
+ ],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_klry5uj4.aas.psm1",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_kyzukmyu.ail.ps1",
+  "C:\\Users\\Shreyas\\AppData\\Roaming\\Contoso\\Helpdesk\\checkin.cmd"
+ ],
+ "dns_queries": 1,
+ "connections": 4,
+ "http_requests": 1,
+ "network_intent": true,
+ "sample_lifetime_s": 93.42,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "Logon script (Run key, recon)",
+ "role": "benign"
+}

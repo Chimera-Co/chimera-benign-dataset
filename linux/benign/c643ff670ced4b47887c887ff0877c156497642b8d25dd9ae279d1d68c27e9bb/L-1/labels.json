@@ -1,0 +1,33 @@
+{
+ "key": "c643ff670ced4b47887c887ff0877c156497642b8d25dd9ae279d1d68c27e9bb/L/1",
+ "sha256": "c643ff670ced4b47887c887ff0877c156497642b8d25dd9ae279d1d68c27e9bb",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "09220149-d338-4451-a45c-a76c573bd808",
+ "submitted": "2026-10-22T21:31:48.393407+00:00",
+ "completed": "2026-10-22T21:35:14.475034+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": true,
+ "persistence_evidence": [
+  "/home/arjun/.bashrc"
+ ],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/home/arjun/.bashrc"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.27,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "navi 2.24.0",
+ "role": "benign"
+}

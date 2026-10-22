@@ -1,0 +1,86 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "c643ff670ced4b47887c887ff0877c156497642b8d25dd9ae279d1d68c27e9bb",
+    "file_name": "navi",
+    "file_type": "ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), statically linked, no section header",
+    "size_bytes": 1419024
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 3,
+    "max_depth": 1,
+    "names": [
+      "/usr/bin/dash",
+      "/home/arjun/Downloads/navi"
+    ],
+    "command_lines": [
+      "/bin/sh -c /home/arjun/Downloads/navi widget bash >> $HOME/.bashrc; /home/arjun/Downloads/navi info cheats-path",
+      "/home/arjun/Downloads/navi widget bash",
+      "/home/arjun/Downloads/navi info cheats-path"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 3,
+    "mprotect": 11,
+    "getuid": 1,
+    "geteuid": 2,
+    "vfork": 2
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect"
+  ],
+  "files": {
+    "created": 0,
+    "written": 1,
+    "deleted": 0,
+    "paths": [
+      "/home/arjun/.bashrc"
+    ]
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}

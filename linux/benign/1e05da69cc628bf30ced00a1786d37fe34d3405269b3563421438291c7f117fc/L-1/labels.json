@@ -1,0 +1,31 @@
+{
+ "key": "1e05da69cc628bf30ced00a1786d37fe34d3405269b3563421438291c7f117fc/L/1",
+ "sha256": "1e05da69cc628bf30ced00a1786d37fe34d3405269b3563421438291c7f117fc",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "21b288d5-40c6-4eea-bf83-85e90907c319",
+ "submitted": "2026-10-20T16:54:29.637657+00:00",
+ "completed": "2026-10-20T16:56:50.044387+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/home/arjun/.cache/monitor-agent.pid"
+ ],
+ "dns_queries": 1,
+ "connections": 24,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 0.07,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "Monitoring agent (HTTP POST beacon)",
+ "role": "benign"
+}

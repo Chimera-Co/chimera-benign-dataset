@@ -1,0 +1,42 @@
+{
+ "key": "323eeecb2735a4acb479dfdb0b3cf86eede7557a673bf42b5180484b6d456bc0/L/1",
+ "sha256": "323eeecb2735a4acb479dfdb0b3cf86eede7557a673bf42b5180484b6d456bc0",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "7f877f73-10c2-400d-adbe-4ca4f9bbc761",
+ "submitted": "2026-10-22T22:10:45.561601+00:00",
+ "completed": "2026-10-22T22:14:00.702420+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 13,
+ "persistence": true,
+ "persistence_evidence": [
+  "/home/arjun/.config/autostart/agent.desktop",
+  "/home/arjun/.config/systemd/user/agent.service",
+  "/home/arjun/.profile"
+ ],
+ "file_drops": 8,
+ "file_drop_evidence": [
+  "/home/arjun/.config/autostart/agent.desktop",
+  "/home/arjun/.config/systemd",
+  "/home/arjun/.config/systemd/user",
+  "/home/arjun/.config/systemd/user/agent.service",
+  "/home/arjun/.local/share/agent",
+  "/home/arjun/.local/share/agent/agent.sh",
+  "/home/arjun/.local/share/agent/heartbeat.log",
+  "/home/arjun/.profile"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 60.2,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "autostart-agent 1.0",
+ "role": "benign"
+}

@@ -1,0 +1,74 @@
+{
+ "generated": "2026-10-22T22:17:40+00:00",
+ "batch": "v3",
+ "arms": {
+  "windows": [
+   "H3"
+  ],
+  "linux": [
+   "L"
+  ]
+ },
+ "timeout_s": 180,
+ "runs_per_program": 1,
+ "scheduled": {
+  "windows": 75,
+  "linux": 44
+ },
+ "done": {
+  "windows": 0,
+  "linux": 7
+ },
+ "status": {
+  "windows": {},
+  "linux": {
+   "finished": 7
+  }
+ },
+ "telemetry_complete": {
+  "windows": 0,
+  "linux": 7
+ },
+ "payload_behaviour": {
+  "windows": 0,
+  "linux": 6
+ },
+ "persistence": {
+  "windows": 0,
+  "linux": 3
+ },
+ "network_intent": {
+  "windows": 0,
+  "linux": 1
+ },
+ "by_category": {
+  "windows": {},
+  "linux": {
+   "admin-script-shell": {
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
+   },
+   "go-crypto": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "go-network": {
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
+   },
+   "rust-cli": {
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 1
+   }
+  }
+ },
+ "all_batches_runs_in_repo": {
+  "v3/linux": 7,
+  "earlier/linux": 12,
+  "earlier/windows": 30
+ }
+}

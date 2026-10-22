@@ -1,0 +1,32 @@
+{
+ "key": "a0c274b22ca6b555ecb4422fc01fbb0bb4bb693f964b1f7dde229cc20b2575ba/H3/1",
+ "sha256": "a0c274b22ca6b555ecb4422fc01fbb0bb4bb693f964b1f7dde229cc20b2575ba",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "faae4069-8a82-42c4-a448-05b40c9b704c",
+ "submitted": "2026-10-20T18:00:54.369972+00:00",
+ "completed": "2026-10-20T18:03:34.485290+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_5ob150pz.4qt.ps1",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_jcuiejyk.no0.psm1"
+ ],
+ "dns_queries": 1,
+ "connections": 1,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 54.73,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "IT inventory script (scheduled task, HTTP POST)",
+ "role": "benign"
+}

@@ -1,0 +1,33 @@
+{
+ "key": "3db278379f74cdaeb6a65b743e4c1c150fa6e933e5df7f459f616e67315e3249/L/1",
+ "sha256": "3db278379f74cdaeb6a65b743e4c1c150fa6e933e5df7f459f616e67315e3249",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "422d82d1-e325-48a0-93c3-39cf8d148217",
+ "submitted": "2026-10-20T17:12:57.827632+00:00",
+ "completed": "2026-10-20T17:15:17.979510+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 8,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "/home/arjun/.local/bin",
+  "/home/arjun/.local/bin/teamcli",
+  "/tmp/tmp.H6nAoav5fe"
+ ],
+ "dns_queries": 1,
+ "connections": 4,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 0.59,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "Tool installer (download, chmod, PATH)",
+ "role": "benign"
+}

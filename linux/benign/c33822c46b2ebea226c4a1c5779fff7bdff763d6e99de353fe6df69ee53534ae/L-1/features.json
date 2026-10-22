@@ -1,0 +1,127 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "c33822c46b2ebea226c4a1c5779fff7bdff763d6e99de353fe6df69ee53534ae",
+    "file_name": "bashrc-setup.sh",
+    "file_type": "POSIX shell script, ASCII text executable",
+    "size_bytes": 510
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 8,
+    "max_depth": 2,
+    "names": [
+      "/usr/bin/dash",
+      "/usr/bin/cat",
+      "/usr/bin/mkdir",
+      "/usr/bin/chmod",
+      "/usr/bin/date"
+    ],
+    "command_lines": [
+      "/bin/sh /home/arjun/Downloads/bashrc-setup.sh",
+      "cat",
+      "mkdir -p /home/arjun/bin",
+      "chmod +x /home/arjun/bin/login-hook.sh",
+      "/bin/sh /home/arjun/bin/login-hook.sh",
+      "date",
+      "cat /home/arjun/.login-log"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 8,
+    "mprotect": 26,
+    "getuid": 2,
+    "geteuid": 4,
+    "vfork": 7,
+    "fchmodat": 1
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "fchmodat",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "vfork",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect"
+  ],
+  "files": {
+    "created": 0,
+    "written": 5,
+    "deleted": 0,
+    "paths": [
+      "/home/arjun/.bashrc",
+      "/home/arjun/.login-log",
+      "/home/arjun/.profile",
+      "/home/arjun/bin",
+      "/home/arjun/bin/login-hook.sh"
+    ]
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}

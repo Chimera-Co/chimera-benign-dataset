@@ -1,0 +1,15 @@
+{
+  "schema": "chimera-verdict/1",
+  "label": "malicious",
+  "score": 1.0,
+  "family": null,
+  "model": "chimera-stub",
+  "model_version": "1",
+  "explanation": [
+    "Placeholder heuristic, not a trained model; score is not a probability.",
+    "20 sample-scoped TTPs observed.",
+    "An autorun registry key was accessed.",
+    "API calls associated with process injection were observed.",
+    "The sample launched descendant processes."
+  ]
+}

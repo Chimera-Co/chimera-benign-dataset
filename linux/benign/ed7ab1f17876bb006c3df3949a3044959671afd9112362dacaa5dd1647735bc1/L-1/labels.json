@@ -1,0 +1,31 @@
+{
+ "key": "ed7ab1f17876bb006c3df3949a3044959671afd9112362dacaa5dd1647735bc1/L/1",
+ "sha256": "ed7ab1f17876bb006c3df3949a3044959671afd9112362dacaa5dd1647735bc1",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "a56064ea-45ce-4cfb-b23f-3c03f6906857",
+ "submitted": "2026-10-20T16:52:03.727253+00:00",
+ "completed": "2026-10-20T16:54:29.587945+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/home/arjun/.config/rclone"
+ ],
+ "dns_queries": 1,
+ "connections": 3,
+ "http_requests": 1,
+ "network_intent": true,
+ "sample_lifetime_s": 0.5,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "rclone (sync, Go)",
+ "role": "benign"
+}

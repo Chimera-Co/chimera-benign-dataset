@@ -1,0 +1,38 @@
+{
+ "key": "874e87dc9de6e99bcbf46400bf7eced0deda402fc79dd13e0cafabf2277c8149/H3/1",
+ "sha256": "874e87dc9de6e99bcbf46400bf7eced0deda402fc79dd13e0cafabf2277c8149",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "d9dbcfc4-c2cd-46c0-a0e0-b59722fa8116",
+ "submitted": "2026-10-20T17:30:14.569619+00:00",
+ "completed": "2026-10-20T17:32:54.690566+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 3,
+ "persistence": true,
+ "persistence_evidence": [
+  "\\REGISTRY\\MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\Everything"
+ ],
+ "file_drops": 6,
+ "file_drop_evidence": [
+  "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Everything.lnk",
+  "C:\\Users\\Public\\Desktop\\Everything.lnk",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\nsj89C7.tmp\\Everything\\Uninstall.exe",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\nsj89C7.tmp\\Everything\\everything.exe",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\nsj89C7.tmp\\InstallOptions.dll",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\nsj89C7.tmp\\System.dll"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 41.35,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "Everything installer (NSIS, service)",
+ "role": "benign"
+}

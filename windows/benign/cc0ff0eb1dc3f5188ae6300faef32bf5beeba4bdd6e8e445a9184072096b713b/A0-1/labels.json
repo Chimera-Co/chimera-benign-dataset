@@ -1,0 +1,32 @@
+{
+ "key": "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b/A0/1",
+ "sha256": "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b",
+ "arm": "A0",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "20cbe9d8-d0d8-4c45-8f12-4d743af27af6",
+ "submitted": "2026-10-20T19:47:33.290209+00:00",
+ "completed": "2026-10-20T19:50:13.765177+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "C:\\Windows\\Temp\\{B9E8622E-F194-44EB-9855-84F45B68986A}\\.ba\\wixstdba.dll",
+  "C:\\Windows\\Temp\\{CF5E4714-075F-433A-A4B8-B3AD042629A1}\\.cr\\vc_redist.x64.exe"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 14.23,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "VC++ redistributable",
+ "role": "benign"
+}

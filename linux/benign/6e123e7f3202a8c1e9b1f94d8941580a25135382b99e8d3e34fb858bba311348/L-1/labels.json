@@ -1,0 +1,31 @@
+{
+ "key": "6e123e7f3202a8c1e9b1f94d8941580a25135382b99e8d3e34fb858bba311348/L/1",
+ "sha256": "6e123e7f3202a8c1e9b1f94d8941580a25135382b99e8d3e34fb858bba311348",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "ee808e04-09e1-4728-824e-55a48d284c32",
+ "submitted": "2026-10-20T16:59:10.997064+00:00",
+ "completed": "2026-10-20T17:01:26.097498+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 4,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/tmp/index.html"
+ ],
+ "dns_queries": 1,
+ "connections": 2,
+ "http_requests": 1,
+ "network_intent": true,
+ "sample_lifetime_s": 0.21,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "BusyBox static",
+ "role": "benign"
+}

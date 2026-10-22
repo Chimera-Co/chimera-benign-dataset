@@ -1,0 +1,38 @@
+{
+ "key": "c33822c46b2ebea226c4a1c5779fff7bdff763d6e99de353fe6df69ee53534ae/L/1",
+ "sha256": "c33822c46b2ebea226c4a1c5779fff7bdff763d6e99de353fe6df69ee53534ae",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "b1867b1f-cd56-43ce-bd7d-cea5d7607209",
+ "submitted": "2026-10-22T22:00:49.630733+00:00",
+ "completed": "2026-10-22T22:04:09.837715+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 7,
+ "persistence": true,
+ "persistence_evidence": [
+  "/home/arjun/.bashrc",
+  "/home/arjun/.profile"
+ ],
+ "file_drops": 5,
+ "file_drop_evidence": [
+  "/home/arjun/.bashrc",
+  "/home/arjun/.login-log",
+  "/home/arjun/.profile",
+  "/home/arjun/bin",
+  "/home/arjun/bin/login-hook.sh"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.2,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "bashrc-setup 1.0",
+ "role": "benign"
+}

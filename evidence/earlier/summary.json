@@ -1,0 +1,10 @@
+{
+ "per_sample": [],
+ "excluded": [],
+ "paired": 0,
+ "both": 0,
+ "neither": 0,
+ "only_A0": 0,
+ "only_H3": 0,
+ "mcnemar_p": 1.0
+}

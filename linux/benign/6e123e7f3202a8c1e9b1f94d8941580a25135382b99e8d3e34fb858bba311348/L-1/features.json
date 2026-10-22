@@ -1,0 +1,129 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "6e123e7f3202a8c1e9b1f94d8941580a25135382b99e8d3e34fb858bba311348",
+    "file_name": "busybox",
+    "file_type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped",
+    "size_bytes": 1131168
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 120.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 5,
+    "max_depth": 2,
+    "names": [
+      "/usr/bin/dash",
+      "/home/arjun/Downloads/busybox"
+    ],
+    "command_lines": [
+      "/bin/sh -c /home/arjun/Downloads/busybox wget -O /tmp/index.html http://www.example.org/; /home/arjun/Downloads/busybox httpd -p 8081 -h /tmp; /home/arjun/Downloads/busybox ps",
+      "/home/arjun/Downloads/busybox wget -O /tmp/index.html http://www.example.org/",
+      "/home/arjun/Downloads/busybox httpd -p 8081 -h /tmp",
+      "/home/arjun/Downloads/busybox ps"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 2,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 4,
+    "mprotect": 3,
+    "getuid": 4,
+    "geteuid": 2,
+    "vfork": 3,
+    "setgid": 3,
+    "setuid": 3,
+    "socket": 3,
+    "bind": 2,
+    "sendto": 2,
+    "recvfrom": 3,
+    "connect": 1,
+    "ftruncate": 1,
+    "listen": 1,
+    "fork": 1,
+    "accept": 1,
+    "sysinfo": 1,
+    "getdents64": 4
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "getuid",
+    "setgid",
+    "setuid",
+    "socket",
+    "bind",
+    "sendto",
+    "sendto",
+    "recvfrom",
+    "recvfrom",
+    "recvfrom",
+    "socket",
+    "connect",
+    "ftruncate",
+    "vfork",
+    "execve",
+    "getuid",
+    "setgid",
+    "setuid",
+    "socket",
+    "bind",
+    "listen",
+    "fork",
+    "setsid",
+    "accept",
+    "vfork",
+    "execve",
+    "getuid",
+    "setgid",
+    "setuid",
+    "sysinfo",
+    "getdents64",
+    "getdents64",
+    "getdents64",
+    "getdents64"
+  ],
+  "files": {
+    "created": 0,
+    "written": 1,
+    "deleted": 0,
+    "paths": [
+      "/tmp/index.html"
+    ]
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [
+      "www.example.org"
+    ],
+    "connections": 2,
+    "remote_endpoints": [
+      "10.99.0.2:53",
+      "10.99.0.2:80"
+    ],
+    "http_requests": 0
+  },
+  "ttps": []
+}

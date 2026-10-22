@@ -1,0 +1,31 @@
+{
+ "key": "edfae1a69522f87b12c6dac3225d930e4848832e3c551ee1e7d31736bf4525ef/H3/1",
+ "sha256": "edfae1a69522f87b12c6dac3225d930e4848832e3c551ee1e7d31736bf4525ef",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "adc50985-bfd8-45a1-a5ae-8752588cf22e",
+ "submitted": "2026-10-20T17:35:52.377371+00:00",
+ "completed": "2026-10-20T17:38:27.484980+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "C:\\Windows\\PSEXESVC.exe"
+ ],
+ "dns_queries": 1,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 33.25,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "Sysinternals PsExec (service as SYSTEM)",
+ "role": "benign"
+}
