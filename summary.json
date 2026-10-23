@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T02:59:30+00:00",
+ "generated": "2026-10-23T03:09:33+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,23 +16,23 @@
   "linux": 44
  },
  "done": {
-  "windows": 31,
-  "linux": 43
+  "windows": 34,
+  "linux": 44
  },
  "status": {
   "windows": {
-   "finished": 31
+   "finished": 34
   },
   "linux": {
-   "finished": 43
+   "finished": 44
   }
  },
  "telemetry_complete": {
-  "windows": 31,
-  "linux": 42
+  "windows": 34,
+  "linux": 43
  },
  "payload_behaviour": {
-  "windows": 19,
+  "windows": 21,
   "linux": 27
  },
  "persistence": {
@@ -50,9 +50,9 @@
     "finished": 1
    },
    "admin-script-powershell": {
-    "runs": 3,
-    "finished": 3,
-    "payload_behaviour": 3
+    "runs": 4,
+    "finished": 4,
+    "payload_behaviour": 4
    },
    "browser-installer": {
     "runs": 2,
@@ -63,7 +63,16 @@
     "runs": 2,
     "finished": 2
    },
+   "go-cli": {
+    "runs": 1,
+    "finished": 1
+   },
    "go-network": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "hardware-prober-installer": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
@@ -138,6 +147,10 @@
     "runs": 1,
     "finished": 1
    },
+   "c-server": {
+    "runs": 1,
+    "finished": 1
+   },
    "go-cli": {
     "runs": 11,
     "finished": 11,
@@ -174,8 +187,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 31,
-  "v3/linux": 43,
+  "v3/windows": 34,
+  "v3/linux": 44,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

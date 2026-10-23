@@ -1,0 +1,83 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "8a217c968aba172e0dbf3f34447218dc015bc4d5e59bf51db2f2cd12b7be4f55",
+    "file_name": "ttyd",
+    "file_type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped",
+    "size_bytes": 1362040
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 2,
+    "max_depth": 1,
+    "names": [
+      "/usr/bin/dash",
+      "/home/arjun/Downloads/ttyd"
+    ],
+    "command_lines": [
+      "/bin/sh -c /home/arjun/Downloads/ttyd -p 7681 -W bash",
+      "/home/arjun/Downloads/ttyd -p 7681 -W bash"
+    ],
+    "exited_early": false
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 2,
+    "mprotect": 3,
+    "getuid": 1,
+    "geteuid": 2,
+    "vfork": 1,
+    "socket": 2,
+    "bind": 2,
+    "sendmsg": 1,
+    "listen": 1
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "socket",
+    "bind",
+    "sendmsg",
+    "socket",
+    "bind",
+    "listen"
+  ],
+  "files": {
+    "created": 0,
+    "written": 0,
+    "deleted": 0,
+    "paths": []
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}

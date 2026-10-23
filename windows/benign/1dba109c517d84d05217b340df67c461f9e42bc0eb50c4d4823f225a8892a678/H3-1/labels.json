@@ -1,0 +1,32 @@
+{
+ "key": "1dba109c517d84d05217b340df67c461f9e42bc0eb50c4d4823f225a8892a678/H3/1",
+ "sha256": "1dba109c517d84d05217b340df67c461f9e42bc0eb50c4d4823f225a8892a678",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "a426488a-9a85-4356-942f-e1ee615e147e",
+ "submitted": "2026-10-23T03:01:55.009241+00:00",
+ "completed": "2026-10-23T03:05:40.171779+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_ybtjlvm5.rdq.psm1",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_yvlbjwee.u02.ps1"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 109.65,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "process-report 1.0",
+ "role": "benign"
+}
