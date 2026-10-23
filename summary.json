@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T23:18:54+00:00",
+ "generated": "2026-10-23T02:09:14+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,24 +16,24 @@
   "linux": 44
  },
  "done": {
-  "windows": 16,
-  "linux": 25
+  "windows": 18,
+  "linux": 28
  },
  "status": {
   "windows": {
-   "finished": 16
+   "finished": 18
   },
   "linux": {
-   "finished": 25
+   "finished": 28
   }
  },
  "telemetry_complete": {
-  "windows": 16,
-  "linux": 25
+  "windows": 18,
+  "linux": 27
  },
  "payload_behaviour": {
-  "windows": 11,
-  "linux": 15
+  "windows": 12,
+  "linux": 17
  },
  "persistence": {
   "windows": 2,
@@ -41,7 +41,7 @@
  },
  "network_intent": {
   "windows": 6,
-  "linux": 3
+  "linux": 4
  },
  "by_category": {
   "windows": {
@@ -78,6 +78,11 @@
     "finished": 1,
     "payload_behaviour": 1
    },
+   "network-tool-installer": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "remote-access-installer": {
     "runs": 1,
     "finished": 1,
@@ -89,8 +94,8 @@
     "payload_behaviour": 1
    },
    "sysinternals-cli": {
-    "runs": 4,
-    "finished": 4,
+    "runs": 5,
+    "finished": 5,
     "payload_behaviour": 1
    },
    "vpn-installer": {
@@ -106,9 +111,9 @@
     "payload_behaviour": 1
    },
    "admin-script-shell": {
-    "runs": 3,
-    "finished": 3,
-    "payload_behaviour": 3
+    "runs": 4,
+    "finished": 4,
+    "payload_behaviour": 4
    },
    "c-cli": {
     "runs": 1,
@@ -120,9 +125,9 @@
     "payload_behaviour": 3
    },
    "go-crypto": {
-    "runs": 2,
-    "finished": 2,
-    "payload_behaviour": 2
+    "runs": 3,
+    "finished": 3,
+    "payload_behaviour": 3
    },
    "go-network": {
     "runs": 3,
@@ -135,8 +140,8 @@
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 7,
-    "finished": 7,
+    "runs": 8,
+    "finished": 8,
     "payload_behaviour": 2
    },
    "rust-server": {
@@ -146,8 +151,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 16,
-  "v3/linux": 25,
+  "v3/windows": 18,
+  "v3/linux": 28,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

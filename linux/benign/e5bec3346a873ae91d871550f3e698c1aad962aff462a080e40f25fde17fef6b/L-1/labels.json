@@ -1,0 +1,31 @@
+{
+ "key": "e5bec3346a873ae91d871550f3e698c1aad962aff462a080e40f25fde17fef6b/L/1",
+ "sha256": "e5bec3346a873ae91d871550f3e698c1aad962aff462a080e40f25fde17fef6b",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "c6931d38-8634-4675-b382-27db291c3391",
+ "submitted": "2026-10-22T23:17:09.595997+00:00",
+ "completed": "2026-10-22T23:20:30.398759+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/tmp/s.yaml"
+ ],
+ "dns_queries": 2,
+ "connections": 6,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 1.64,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "sops 3.13.3",
+ "role": "benign"
+}

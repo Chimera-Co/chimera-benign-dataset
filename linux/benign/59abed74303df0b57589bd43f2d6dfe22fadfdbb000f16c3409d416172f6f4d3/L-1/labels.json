@@ -1,0 +1,33 @@
+{
+ "key": "59abed74303df0b57589bd43f2d6dfe22fadfdbb000f16c3409d416172f6f4d3/L/1",
+ "sha256": "59abed74303df0b57589bd43f2d6dfe22fadfdbb000f16c3409d416172f6f4d3",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "16b0090c-5a3a-4024-a268-9885f8ece1a6",
+ "submitted": "2026-10-23T02:08:08.859033+00:00",
+ "completed": "2026-10-23T02:08:34.850531+00:00",
+ "status": "finished",
+ "telemetry_complete": false,
+ "executed": true,
+ "children": 127,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "/tmp/audit",
+  "/tmp/audit/exes.txt",
+  "/tmp/audit/ps.txt"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": null,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "proc-audit 1.0",
+ "role": "benign"
+}

@@ -1,0 +1,31 @@
+{
+ "key": "7d99ee28b2eae1a90917bb45afc42c1e900a271e7f1bbe1234cf266a819bacc8/H3/1",
+ "sha256": "7d99ee28b2eae1a90917bb45afc42c1e900a271e7f1bbe1234cf266a819bacc8",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "c01c310a-ee80-47d9-9868-436a4f389f68",
+ "submitted": "2026-10-22T23:21:32.529165+00:00",
+ "completed": "2026-10-22T23:25:17.999260+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 0,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\nscAB2A.tmp\\InstallOptions.dll"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": null,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "nmap 7.992",
+ "role": "benign"
+}
