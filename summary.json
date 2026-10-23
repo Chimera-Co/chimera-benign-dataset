@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:24:36+00:00",
+ "generated": "2026-10-23T03:34:39+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,32 +16,32 @@
   "linux": 69
  },
  "done": {
-  "windows": 37,
-  "linux": 47
+  "windows": 40,
+  "linux": 50
  },
  "status": {
   "windows": {
-   "finished": 37
+   "finished": 40
   },
   "linux": {
-   "finished": 47
+   "finished": 50
   }
  },
  "telemetry_complete": {
-  "windows": 37,
-  "linux": 46
+  "windows": 40,
+  "linux": 49
  },
  "payload_behaviour": {
-  "windows": 24,
-  "linux": 29
+  "windows": 26,
+  "linux": 32
  },
  "persistence": {
   "windows": 6,
   "linux": 8
  },
  "network_intent": {
-  "windows": 12,
-  "linux": 8
+  "windows": 13,
+  "linux": 11
  },
  "by_category": {
   "windows": {
@@ -51,9 +51,9 @@
     "payload_behaviour": 1
    },
    "admin-script-powershell": {
-    "runs": 4,
-    "finished": 4,
-    "payload_behaviour": 4
+    "runs": 5,
+    "finished": 5,
+    "payload_behaviour": 5
    },
    "browser-installer": {
     "runs": 2,
@@ -69,8 +69,8 @@
     "finished": 1
    },
    "go-network": {
-    "runs": 1,
-    "finished": 1,
+    "runs": 2,
+    "finished": 2,
     "payload_behaviour": 1
    },
    "hardware-prober-installer": {
@@ -117,6 +117,11 @@
     "runs": 2,
     "finished": 2,
     "payload_behaviour": 2
+   },
+   "remote-ssh-client": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
    },
    "rust-cli": {
     "runs": 3,
@@ -187,9 +192,19 @@
     "finished": 1,
     "payload_behaviour": 1
    },
+   "go-network-tunnel": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "go-server": {
     "runs": 3,
     "finished": 3,
+    "payload_behaviour": 1
+   },
+   "pyinstaller-network": {
+    "runs": 1,
+    "finished": 1,
     "payload_behaviour": 1
    },
    "rust-cli": {
@@ -201,6 +216,11 @@
     "runs": 1,
     "finished": 1
    },
+   "rust-network-tunnel": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "rust-server": {
     "runs": 1,
     "finished": 1
@@ -208,8 +228,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 37,
-  "v3/linux": 47,
+  "v3/windows": 40,
+  "v3/linux": 50,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

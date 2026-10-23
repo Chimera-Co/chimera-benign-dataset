@@ -1,0 +1,32 @@
+{
+ "key": "e0364861f8d141c01bfd99d4220b1882c55de1fbb5f7cd3e0070877a7beddc95/H3/1",
+ "sha256": "e0364861f8d141c01bfd99d4220b1882c55de1fbb5f7cd3e0070877a7beddc95",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "c80ecc5c-cdb3-4f43-81a3-e12a56281753",
+ "submitted": "2026-10-23T03:28:30.520331+00:00",
+ "completed": "2026-10-23T03:32:15.677639+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_3541g1nf.bfj.psm1",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_fpjp3oov.mtz.ps1"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 49.64,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "disk-cleanup 1.0",
+ "role": "benign"
+}
