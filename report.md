@@ -1,11 +1,11 @@
-# Benign batch v3 (generated 2026-10-23T04:25:34+00:00)
+# Benign batch v3 (generated 2026-10-23T04:30:37+00:00)
 
 Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 
 | OS | Done / scheduled | Finished | Telemetry complete | Payload behaviour | Persistence | Network intent | Other statuses |
 |---|---|---|---|---|---|---|---|
-| windows | 54 / 75 | 54 | 54 | 35 | 9 | 18 | – |
-| linux | 65 / 69 | 65 | 64 | 41 | 8 | 16 | – |
+| windows | 55 / 75 | 55 | 55 | 35 | 9 | 18 | – |
+| linux | 66 / 69 | 66 | 65 | 42 | 8 | 17 | – |
 
 ## Runs by category
 
@@ -18,6 +18,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | go-backup | 2 | 2 | 0 |
 | windows | go-cli | 1 | 1 | 0 |
 | windows | go-network | 4 | 4 | 1 |
+| windows | go-server | 1 | 1 | 0 |
 | windows | hardware-prober-installer | 1 | 1 | 1 |
 | windows | installer-burn | 1 | 1 | 1 |
 | windows | installer-inno | 4 | 4 | 3 |
@@ -46,7 +47,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | go-crypto | 4 | 4 | 4 |
 | linux | go-network | 7 | 7 | 7 |
 | linux | go-network-proxy | 1 | 1 | 1 |
-| linux | go-network-recon | 1 | 1 | 1 |
+| linux | go-network-recon | 2 | 2 | 2 |
 | linux | go-network-tunnel | 1 | 1 | 1 |
 | linux | go-security-scanner | 1 | 1 | 1 |
 | linux | go-server | 3 | 3 | 1 |
@@ -117,6 +118,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | ssh-key-sync 1.0 | admin-script-shell | finished | yes | yes | yes | 8 | yes |
 | linux | starship 1.27.0 | rust-cli | finished | yes | yes | yes | 3 | no |
 | linux | step 0.31.0 | go-crypto | finished | yes | yes | no | 2 | no |
+| linux | subfinder 2.17.0 | go-network-recon | finished | yes | yes | no | 1 | yes |
 | linux | traefik 3.7.16 | go-server | finished | yes | no | no | 1 | no |
 | linux | trivy 0.76.1 | go-security-scanner | finished | yes | yes | no | 1 | yes |
 | linux | ttyd 1.7.7 | c-server | finished | yes | no | no | 1 | no |
@@ -131,6 +133,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | accesschk latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | backup-documents 1.0 | admin-script-powershell | finished | yes | yes | no | 3 | no |
 | windows | brave 1.98.60 | browser-installer | finished | yes | yes | yes | 7 | yes |
+| windows | caddy 2.11.7 | go-server | finished | yes | no | no | 1 | no |
 | windows | cloudflared 2026.10.3 | go-network | finished | yes | yes | no | 1 | yes |
 | windows | cpuz 3.01 | hardware-prober-installer | finished | yes | yes | no | 3 | no |
 | windows | croc 11.5.5 | go-network | finished | yes | no | no | 1 | no |

@@ -1,0 +1,33 @@
+{
+ "key": "bf4ad8590702b0bb92be9b3be185f96a230b047c9b97f2831cf8914344f0b15a/L/1",
+ "sha256": "bf4ad8590702b0bb92be9b3be185f96a230b047c9b97f2831cf8914344f0b15a",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "0c59d617-367f-45b9-9f9a-2e8f64316f3f",
+ "submitted": "2026-10-23T04:24:03.826955+00:00",
+ "completed": "2026-10-23T04:27:24.219363+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "/home/arjun/.config/subfinder",
+  "/home/arjun/.config/subfinder/config.yaml",
+  "/home/arjun/.config/subfinder/provider-config.yaml"
+ ],
+ "dns_queries": 12,
+ "connections": 49,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 0.8,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "subfinder 2.17.0",
+ "role": "benign"
+}

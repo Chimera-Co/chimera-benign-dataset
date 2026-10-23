@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T04:25:34+00:00",
+ "generated": "2026-10-23T04:30:37+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,24 +16,24 @@
   "linux": 69
  },
  "done": {
-  "windows": 54,
-  "linux": 65
+  "windows": 55,
+  "linux": 66
  },
  "status": {
   "windows": {
-   "finished": 54
+   "finished": 55
   },
   "linux": {
-   "finished": 65
+   "finished": 66
   }
  },
  "telemetry_complete": {
-  "windows": 54,
-  "linux": 64
+  "windows": 55,
+  "linux": 65
  },
  "payload_behaviour": {
   "windows": 35,
-  "linux": 41
+  "linux": 42
  },
  "persistence": {
   "windows": 9,
@@ -41,7 +41,7 @@
  },
  "network_intent": {
   "windows": 18,
-  "linux": 16
+  "linux": 17
  },
  "by_category": {
   "windows": {
@@ -76,6 +76,10 @@
     "runs": 4,
     "finished": 4,
     "payload_behaviour": 1
+   },
+   "go-server": {
+    "runs": 1,
+    "finished": 1
    },
    "hardware-prober-installer": {
     "runs": 1,
@@ -217,9 +221,9 @@
     "payload_behaviour": 1
    },
    "go-network-recon": {
-    "runs": 1,
-    "finished": 1,
-    "payload_behaviour": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
    },
    "go-network-tunnel": {
     "runs": 1,
@@ -271,8 +275,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 54,
-  "v3/linux": 65,
+  "v3/windows": 55,
+  "v3/linux": 66,
   "earlier/linux": 12,
   "earlier/windows": 30
  }
