@@ -1,11 +1,11 @@
-# Benign batch v3 (generated 2026-10-23T04:30:37+00:00)
+# Benign batch v3 (generated 2026-10-23T04:35:22+00:00)
 
 Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 
 | OS | Done / scheduled | Finished | Telemetry complete | Payload behaviour | Persistence | Network intent | Other statuses |
 |---|---|---|---|---|---|---|---|
-| windows | 55 / 75 | 55 | 55 | 35 | 9 | 18 | – |
-| linux | 66 / 69 | 66 | 65 | 42 | 8 | 17 | – |
+| windows | 56 / 75 | 56 | 56 | 35 | 9 | 18 | – |
+| linux | 68 / 69 | 68 | 67 | 43 | 8 | 18 | – |
 
 ## Runs by category
 
@@ -30,7 +30,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | pyinstaller-network | 1 | 1 | 1 |
 | windows | remote-access-installer | 2 | 2 | 2 |
 | windows | remote-ssh-client | 2 | 2 | 2 |
-| windows | rust-cli | 4 | 4 | 0 |
+| windows | rust-cli | 5 | 5 | 0 |
 | windows | sync-installer | 1 | 1 | 1 |
 | windows | sysinternals-cli | 8 | 8 | 2 |
 | windows | sysinternals-driver | 1 | 1 | 1 |
@@ -51,9 +51,11 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | go-network-tunnel | 1 | 1 | 1 |
 | linux | go-security-scanner | 1 | 1 | 1 |
 | linux | go-server | 3 | 3 | 1 |
+| linux | go-server-remote-shell | 1 | 1 | 0 |
 | linux | haskell-cli | 1 | 1 | 0 |
 | linux | pyinstaller-network | 1 | 1 | 1 |
 | linux | rust-cli | 17 | 17 | 5 |
+| linux | rust-js-runtime | 1 | 1 | 1 |
 | linux | rust-network | 2 | 2 | 1 |
 | linux | rust-network-tunnel | 2 | 2 | 2 |
 | linux | rust-server | 1 | 1 | 0 |
@@ -74,6 +76,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | croc 11.5.5 | go-network | finished | yes | yes | no | 1 | yes |
 | linux | cron-health 1.0 | admin-script-shell | finished | yes | yes | yes | 14 | no |
 | linux | delta 0.20.1 | rust-cli | finished | yes | no | no | 4 | no |
+| linux | deno 2.9.8 | rust-js-runtime | finished | yes | yes | no | 1 | yes |
 | linux | direnv 2.38.2 | go-cli | finished | yes | yes | yes | 14 | no |
 | linux | disk-usage-report 1.0 | admin-script-python | finished | yes | yes | no | 2 | no |
 | linux | dive 0.13.1 | go-cli | finished | yes | no | no | 2 | no |
@@ -88,6 +91,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | gh 2.103.0 | go-network | finished | yes | yes | no | 3 | no |
 | linux | glow 3.0.0 | go-cli | finished | yes | yes | no | 1 | no |
 | linux | gost 3.3.1 | go-network-proxy | finished | yes | yes | no | 2 | no |
+| linux | gotty 1.10.0 | go-server-remote-shell | finished | yes | no | no | 2 | no |
 | linux | grex 1.4.6 | rust-cli | finished | yes | no | no | 1 | no |
 | linux | gron 0.7.1 | go-cli | finished | yes | yes | no | 3 | yes |
 | linux | grpcurl 1.9.4 | go-network | finished | yes | yes | no | 1 | yes |
@@ -184,3 +188,4 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | yq 4.54.1 | go-cli | finished | yes | no | no | 1 | no |
 | windows | yt-dlp 2026.10.21 | pyinstaller-network | finished | yes | yes | no | 5 | yes |
 | windows | zoom 6.6.11 | installer-msi-wrapper | finished | yes | yes | no | 1 | no |
+| windows | zoxide 0.10.0 | rust-cli | finished | yes | no | no | 2 | no |

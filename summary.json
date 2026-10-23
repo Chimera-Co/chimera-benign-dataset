@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T04:30:37+00:00",
+ "generated": "2026-10-23T04:35:22+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,24 +16,24 @@
   "linux": 69
  },
  "done": {
-  "windows": 55,
-  "linux": 66
+  "windows": 56,
+  "linux": 68
  },
  "status": {
   "windows": {
-   "finished": 55
+   "finished": 56
   },
   "linux": {
-   "finished": 66
+   "finished": 68
   }
  },
  "telemetry_complete": {
-  "windows": 55,
-  "linux": 65
+  "windows": 56,
+  "linux": 67
  },
  "payload_behaviour": {
   "windows": 35,
-  "linux": 42
+  "linux": 43
  },
  "persistence": {
   "windows": 9,
@@ -41,7 +41,7 @@
  },
  "network_intent": {
   "windows": 18,
-  "linux": 17
+  "linux": 18
  },
  "by_category": {
   "windows": {
@@ -137,8 +137,8 @@
     "payload_behaviour": 2
    },
    "rust-cli": {
-    "runs": 4,
-    "finished": 4
+    "runs": 5,
+    "finished": 5
    },
    "sync-installer": {
     "runs": 1,
@@ -240,6 +240,10 @@
     "finished": 3,
     "payload_behaviour": 1
    },
+   "go-server-remote-shell": {
+    "runs": 1,
+    "finished": 1
+   },
    "haskell-cli": {
     "runs": 1,
     "finished": 1
@@ -253,6 +257,11 @@
     "runs": 17,
     "finished": 17,
     "payload_behaviour": 5
+   },
+   "rust-js-runtime": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
    },
    "rust-network": {
     "runs": 2,
@@ -275,8 +284,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 55,
-  "v3/linux": 66,
+  "v3/windows": 56,
+  "v3/linux": 68,
   "earlier/linux": 12,
   "earlier/windows": 30
  }
