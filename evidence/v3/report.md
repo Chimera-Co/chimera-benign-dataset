@@ -1,11 +1,11 @@
-# Benign batch v3 (generated 2026-10-23T02:29:21+00:00)
+# Benign batch v3 (generated 2026-10-23T02:39:24+00:00)
 
 Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 
 | OS | Done / scheduled | Finished | Telemetry complete | Payload behaviour | Persistence | Network intent | Other statuses |
 |---|---|---|---|---|---|---|---|
-| windows | 23 / 75 | 23 | 23 | 14 | 3 | 7 | – |
-| linux | 34 / 44 | 34 | 33 | 20 | 6 | 5 | – |
+| windows | 26 / 75 | 26 | 26 | 16 | 3 | 8 | – |
+| linux | 37 / 44 | 37 | 36 | 23 | 6 | 6 | – |
 
 ## Runs by category
 
@@ -17,18 +17,19 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | go-backup | 2 | 2 | 0 |
 | windows | installer-inno | 3 | 3 | 2 |
 | windows | installer-msi-wrapper | 1 | 1 | 1 |
-| windows | installer-nsis | 1 | 1 | 1 |
+| windows | installer-nsis | 2 | 2 | 2 |
+| windows | installer-stub-downloader | 1 | 1 | 1 |
 | windows | network-cli | 1 | 1 | 1 |
 | windows | network-tool-installer | 1 | 1 | 1 |
 | windows | remote-access-installer | 1 | 1 | 1 |
-| windows | rust-cli | 1 | 1 | 0 |
+| windows | rust-cli | 2 | 2 | 0 |
 | windows | sync-installer | 1 | 1 | 1 |
 | windows | sysinternals-cli | 5 | 5 | 1 |
 | windows | vpn-installer | 1 | 1 | 1 |
 | linux | admin-script-python | 1 | 1 | 1 |
-| linux | admin-script-shell | 6 | 6 | 6 |
+| linux | admin-script-shell | 7 | 7 | 7 |
 | linux | c-cli | 1 | 1 | 0 |
-| linux | go-cli | 6 | 6 | 3 |
+| linux | go-cli | 8 | 8 | 5 |
 | linux | go-crypto | 3 | 3 | 3 |
 | linux | go-network | 4 | 4 | 4 |
 | linux | go-server | 3 | 3 | 1 |
@@ -60,6 +61,9 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | glow 3.0.0 | go-cli | finished | yes | yes | no | 1 | no |
 | linux | hugo 0.168.0 | go-cli | finished | yes | yes | no | 2 | no |
 | linux | jq 1.8.2 | c-cli | finished | yes | no | no | 3 | no |
+| linux | k9s 0.51.0 | go-cli | finished | yes | yes | no | 2 | no |
+| linux | log-rotate-archive 1.0 | admin-script-shell | finished | yes | yes | no | 13 | yes |
+| linux | micro 2.0.15 | go-cli | finished | yes | yes | no | 2 | no |
 | linux | miniserve 0.35.0 | rust-server | finished | yes | no | no | 1 | no |
 | linux | mkcert 1.4.4 | go-crypto | finished | yes | yes | no | 3 | no |
 | linux | nats-server 2.15.1 | go-server | finished | yes | no | no | 1 | no |
@@ -74,12 +78,14 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | yazi 26.9.1 | rust-cli | finished | yes | no | no | 2 | no |
 | linux | yq 4.54.1 | go-cli | finished | yes | yes | no | 1 | no |
 | linux | zoxide 0.10.0 | rust-cli | finished | yes | yes | yes | 3 | no |
+| windows | 7zip 23.01 | installer-nsis | finished | yes | yes | no | 0 | no |
 | windows | accesschk latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | backup-documents 1.0 | admin-script-powershell | finished | yes | yes | no | 3 | no |
 | windows | curl 8.23.0 | network-cli | finished | yes | yes | no | 2 | yes |
 | windows | dropbox 274.4.4905 | sync-installer | finished | yes | yes | no | 5 | yes |
 | windows | dust 1.2.6 | rust-cli | finished | yes | no | no | 1 | no |
 | windows | firefox 158.0.1 | browser-installer | finished | yes | yes | no | 11 | yes |
+| windows | hyperfine 2.0.0 | rust-cli | finished | yes | no | no | 2 | no |
 | windows | keepass 2.61.1 | installer-inno | finished | yes | yes | yes | 14 | no |
 | windows | kopia 0.23.1 | go-backup | finished | yes | no | no | 1 | no |
 | windows | listdlls latest | sysinternals-cli | finished | yes | no | no | 1 | no |
@@ -93,6 +99,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | security-baseline 1.0 | admin-script-powershell | finished | yes | yes | no | 5 | yes |
 | windows | sigcheck latest | sysinternals-cli | finished | yes | yes | no | 1 | yes |
 | windows | software-installer 1.0 | admin-script-powershell | finished | yes | yes | yes | 1 | yes |
+| windows | spotify latest | installer-stub-downloader | finished | yes | yes | no | 0 | yes |
 | windows | tailscale 1.104.2 | vpn-installer | finished | yes | yes | yes | 2 | yes |
 | windows | teamviewer 15 | remote-access-installer | finished | yes | yes | no | 5 | no |
 | windows | telegram 7.3.3 | installer-inno | finished | yes | yes | no | 1 | no |

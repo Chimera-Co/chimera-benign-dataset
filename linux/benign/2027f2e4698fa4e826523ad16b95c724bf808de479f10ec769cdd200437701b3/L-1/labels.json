@@ -1,0 +1,31 @@
+{
+ "key": "2027f2e4698fa4e826523ad16b95c724bf808de479f10ec769cdd200437701b3/L/1",
+ "sha256": "2027f2e4698fa4e826523ad16b95c724bf808de479f10ec769cdd200437701b3",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "509d33fe-5163-43db-96eb-782b47778afb",
+ "submitted": "2026-10-23T02:35:03.299297+00:00",
+ "completed": "2026-10-23T02:38:18.549507+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/home/arjun/.config/micro"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.24,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "micro 2.0.15",
+ "role": "benign"
+}

@@ -1,0 +1,33 @@
+{
+ "key": "cf8c9bfe724fa3e537c5cfd511a03853927ea241f7786fe1ca216883e44723da/L/1",
+ "sha256": "cf8c9bfe724fa3e537c5cfd511a03853927ea241f7786fe1ca216883e44723da",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "b6d9b510-d4ca-4728-b661-e61e22955153",
+ "submitted": "2026-10-23T02:31:43.124261+00:00",
+ "completed": "2026-10-23T02:35:03.276528+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 13,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "/tmp/logarchive",
+  "/tmp/logarchive/journal.txt",
+  "/tmp/logs-20261023.tgz"
+ ],
+ "dns_queries": 1,
+ "connections": 2,
+ "http_requests": 1,
+ "network_intent": true,
+ "sample_lifetime_s": 0.93,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "log-rotate-archive 1.0",
+ "role": "benign"
+}

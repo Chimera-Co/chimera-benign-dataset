@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T02:29:21+00:00",
+ "generated": "2026-10-23T02:39:24+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,32 +16,32 @@
   "linux": 44
  },
  "done": {
-  "windows": 23,
-  "linux": 34
+  "windows": 26,
+  "linux": 37
  },
  "status": {
   "windows": {
-   "finished": 23
+   "finished": 26
   },
   "linux": {
-   "finished": 34
+   "finished": 37
   }
  },
  "telemetry_complete": {
-  "windows": 23,
-  "linux": 33
+  "windows": 26,
+  "linux": 36
  },
  "payload_behaviour": {
-  "windows": 14,
-  "linux": 20
+  "windows": 16,
+  "linux": 23
  },
  "persistence": {
   "windows": 3,
   "linux": 6
  },
  "network_intent": {
-  "windows": 7,
-  "linux": 5
+  "windows": 8,
+  "linux": 6
  },
  "by_category": {
   "windows": {
@@ -74,6 +74,11 @@
     "payload_behaviour": 1
    },
    "installer-nsis": {
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
+   },
+   "installer-stub-downloader": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
@@ -94,8 +99,8 @@
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 1,
-    "finished": 1
+    "runs": 2,
+    "finished": 2
    },
    "sync-installer": {
     "runs": 1,
@@ -120,18 +125,18 @@
     "payload_behaviour": 1
    },
    "admin-script-shell": {
-    "runs": 6,
-    "finished": 6,
-    "payload_behaviour": 6
+    "runs": 7,
+    "finished": 7,
+    "payload_behaviour": 7
    },
    "c-cli": {
     "runs": 1,
     "finished": 1
    },
    "go-cli": {
-    "runs": 6,
-    "finished": 6,
-    "payload_behaviour": 3
+    "runs": 8,
+    "finished": 8,
+    "payload_behaviour": 5
    },
    "go-crypto": {
     "runs": 3,
@@ -164,8 +169,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 23,
-  "v3/linux": 34,
+  "v3/windows": 26,
+  "v3/linux": 37,
   "earlier/linux": 12,
   "earlier/windows": 30
  }
