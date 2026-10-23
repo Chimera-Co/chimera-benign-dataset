@@ -1,0 +1,31 @@
+{
+ "key": "c7d3983a19c8d98f353b2272fe7d3f4d90464e6b9c2f8ba2cb84034052041154/L/1",
+ "sha256": "c7d3983a19c8d98f353b2272fe7d3f4d90464e6b9c2f8ba2cb84034052041154",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "34d3e8e1-1878-4ab4-bf99-dcae420d7876",
+ "submitted": "2026-10-23T02:25:01.501562+00:00",
+ "completed": "2026-10-23T02:28:21.648663+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 14,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/tmp/idx.html"
+ ],
+ "dns_queries": 2,
+ "connections": 8,
+ "http_requests": 1,
+ "network_intent": true,
+ "sample_lifetime_s": 0.71,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "net-recon 1.0",
+ "role": "benign"
+}

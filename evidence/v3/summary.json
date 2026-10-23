@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T02:19:18+00:00",
+ "generated": "2026-10-23T02:29:21+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,32 +16,32 @@
   "linux": 44
  },
  "done": {
-  "windows": 20,
-  "linux": 31
+  "windows": 23,
+  "linux": 34
  },
  "status": {
   "windows": {
-   "finished": 20
+   "finished": 23
   },
   "linux": {
-   "finished": 31
+   "finished": 34
   }
  },
  "telemetry_complete": {
-  "windows": 20,
-  "linux": 30
+  "windows": 23,
+  "linux": 33
  },
  "payload_behaviour": {
-  "windows": 12,
-  "linux": 19
+  "windows": 14,
+  "linux": 20
  },
  "persistence": {
-  "windows": 2,
+  "windows": 3,
   "linux": 6
  },
  "network_intent": {
-  "windows": 6,
-  "linux": 4
+  "windows": 7,
+  "linux": 5
  },
  "by_category": {
   "windows": {
@@ -50,9 +50,9 @@
     "finished": 1
    },
    "admin-script-powershell": {
-    "runs": 2,
-    "finished": 2,
-    "payload_behaviour": 2
+    "runs": 3,
+    "finished": 3,
+    "payload_behaviour": 3
    },
    "browser-installer": {
     "runs": 1,
@@ -73,6 +73,11 @@
     "finished": 1,
     "payload_behaviour": 1
    },
+   "installer-nsis": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "network-cli": {
     "runs": 1,
     "finished": 1,
@@ -87,6 +92,10 @@
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
+   },
+   "rust-cli": {
+    "runs": 1,
+    "finished": 1
    },
    "sync-installer": {
     "runs": 1,
@@ -111,17 +120,17 @@
     "payload_behaviour": 1
    },
    "admin-script-shell": {
-    "runs": 5,
-    "finished": 5,
-    "payload_behaviour": 5
+    "runs": 6,
+    "finished": 6,
+    "payload_behaviour": 6
    },
    "c-cli": {
     "runs": 1,
     "finished": 1
    },
    "go-cli": {
-    "runs": 5,
-    "finished": 5,
+    "runs": 6,
+    "finished": 6,
     "payload_behaviour": 3
    },
    "go-crypto": {
@@ -144,6 +153,10 @@
     "finished": 8,
     "payload_behaviour": 2
    },
+   "rust-network": {
+    "runs": 1,
+    "finished": 1
+   },
    "rust-server": {
     "runs": 1,
     "finished": 1
@@ -151,8 +164,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 20,
-  "v3/linux": 31,
+  "v3/windows": 23,
+  "v3/linux": 34,
   "earlier/linux": 12,
   "earlier/windows": 30
  }
