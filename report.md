@@ -1,11 +1,11 @@
-# Benign batch v3 (generated 2026-10-23T03:44:42+00:00)
+# Benign batch v3 (generated 2026-10-23T03:54:45+00:00)
 
 Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 
 | OS | Done / scheduled | Finished | Telemetry complete | Payload behaviour | Persistence | Network intent | Other statuses |
 |---|---|---|---|---|---|---|---|
-| windows | 43 / 75 | 43 | 43 | 28 | 7 | 14 | – |
-| linux | 53 / 69 | 53 | 52 | 34 | 8 | 12 | – |
+| windows | 45 / 75 | 45 | 45 | 29 | 7 | 15 | – |
+| linux | 56 / 69 | 56 | 55 | 35 | 8 | 12 | – |
 
 ## Runs by category
 
@@ -16,9 +16,9 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | browser-installer | 2 | 2 | 2 |
 | windows | go-backup | 2 | 2 | 0 |
 | windows | go-cli | 1 | 1 | 0 |
-| windows | go-network | 2 | 2 | 1 |
+| windows | go-network | 3 | 3 | 1 |
 | windows | hardware-prober-installer | 1 | 1 | 1 |
-| windows | installer-inno | 3 | 3 | 2 |
+| windows | installer-inno | 4 | 4 | 3 |
 | windows | installer-msi-wrapper | 1 | 1 | 1 |
 | windows | installer-nsis | 2 | 2 | 2 |
 | windows | installer-stub-downloader | 1 | 1 | 1 |
@@ -38,14 +38,14 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | c-cli | 1 | 1 | 0 |
 | linux | c-server | 1 | 1 | 0 |
 | linux | go-cli | 11 | 11 | 7 |
-| linux | go-crypto | 3 | 3 | 3 |
+| linux | go-crypto | 4 | 4 | 4 |
 | linux | go-network | 5 | 5 | 5 |
 | linux | go-network-proxy | 1 | 1 | 1 |
 | linux | go-network-recon | 1 | 1 | 1 |
 | linux | go-network-tunnel | 1 | 1 | 1 |
 | linux | go-server | 3 | 3 | 1 |
 | linux | pyinstaller-network | 1 | 1 | 1 |
-| linux | rust-cli | 13 | 13 | 4 |
+| linux | rust-cli | 15 | 15 | 4 |
 | linux | rust-network | 1 | 1 | 0 |
 | linux | rust-network-tunnel | 2 | 2 | 2 |
 | linux | rust-server | 1 | 1 | 0 |
@@ -60,6 +60,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | bat 0.26.1 | rust-cli | finished | yes | no | no | 1 | no |
 | linux | bore 0.6.0 | rust-network-tunnel | finished | yes | yes | no | 2 | yes |
 | linux | chisel 1.12.0 | go-network-tunnel | finished | yes | yes | no | 2 | yes |
+| linux | choose 1.3.7 | rust-cli | finished | yes | no | no | 3 | no |
 | linux | cloudflared 2026.10.3 | go-network | finished | yes | yes | no | 1 | yes |
 | linux | croc 11.5.5 | go-network | finished | yes | yes | no | 1 | yes |
 | linux | cron-health 1.0 | admin-script-shell | finished | yes | yes | yes | 14 | no |
@@ -79,6 +80,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | glow 3.0.0 | go-cli | finished | yes | yes | no | 1 | no |
 | linux | gost 3.3.1 | go-network-proxy | finished | yes | yes | no | 2 | no |
 | linux | gron 0.7.1 | go-cli | finished | yes | yes | no | 3 | yes |
+| linux | hexyl 0.17.0 | rust-cli | finished | yes | no | no | 1 | no |
 | linux | httpx 1.12.0 | go-network-recon | finished | yes | yes | no | 2 | yes |
 | linux | hugo 0.168.0 | go-cli | finished | yes | yes | no | 2 | no |
 | linux | hyperfine 2.0.0 | rust-cli | finished | yes | no | no | 246 | no |
@@ -100,6 +102,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | sops 3.13.3 | go-crypto | finished | yes | yes | no | 2 | yes |
 | linux | ssh-key-sync 1.0 | admin-script-shell | finished | yes | yes | yes | 8 | yes |
 | linux | starship 1.27.0 | rust-cli | finished | yes | yes | yes | 3 | no |
+| linux | step 0.31.0 | go-crypto | finished | yes | yes | no | 2 | no |
 | linux | traefik 3.7.16 | go-server | finished | yes | no | no | 1 | no |
 | linux | ttyd 1.7.7 | c-server | finished | yes | no | no | 1 | no |
 | linux | websocat 1.14.1 | rust-network | finished | yes | no | no | 1 | no |
@@ -113,6 +116,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | brave 1.98.60 | browser-installer | finished | yes | yes | yes | 7 | yes |
 | windows | cloudflared 2026.10.3 | go-network | finished | yes | yes | no | 1 | yes |
 | windows | cpuz 3.01 | hardware-prober-installer | finished | yes | yes | no | 3 | no |
+| windows | croc 11.5.5 | go-network | finished | yes | no | no | 1 | no |
 | windows | curl 8.23.0 | network-cli | finished | yes | yes | no | 2 | yes |
 | windows | disk-cleanup 1.0 | admin-script-powershell | finished | yes | yes | no | 1 | no |
 | windows | dropbox 274.4.4905 | sync-installer | finished | yes | yes | no | 5 | yes |
@@ -146,6 +150,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | teamviewer 15 | remote-access-installer | finished | yes | yes | no | 5 | no |
 | windows | telegram 7.3.3 | installer-inno | finished | yes | yes | no | 1 | no |
 | windows | user-setup 1.0 | admin-script-batch | finished | yes | yes | yes | 8 | no |
+| windows | vscode 1.143.0 | installer-inno | finished | yes | yes | no | 8 | yes |
 | windows | wireguard latest | vpn-installer-stub-downloader | finished | yes | yes | no | 0 | yes |
 | windows | yq 4.54.1 | go-cli | finished | yes | no | no | 1 | no |
 | windows | yt-dlp 2026.10.21 | pyinstaller-network | finished | yes | yes | no | 5 | yes |

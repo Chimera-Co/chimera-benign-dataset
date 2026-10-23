@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:44:42+00:00",
+ "generated": "2026-10-23T03:54:45+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,31 +16,31 @@
   "linux": 69
  },
  "done": {
-  "windows": 43,
-  "linux": 53
+  "windows": 45,
+  "linux": 56
  },
  "status": {
   "windows": {
-   "finished": 43
+   "finished": 45
   },
   "linux": {
-   "finished": 53
+   "finished": 56
   }
  },
  "telemetry_complete": {
-  "windows": 43,
-  "linux": 52
+  "windows": 45,
+  "linux": 55
  },
  "payload_behaviour": {
-  "windows": 28,
-  "linux": 34
+  "windows": 29,
+  "linux": 35
  },
  "persistence": {
   "windows": 7,
   "linux": 8
  },
  "network_intent": {
-  "windows": 14,
+  "windows": 15,
   "linux": 12
  },
  "by_category": {
@@ -69,8 +69,8 @@
     "finished": 1
    },
    "go-network": {
-    "runs": 2,
-    "finished": 2,
+    "runs": 3,
+    "finished": 3,
     "payload_behaviour": 1
    },
    "hardware-prober-installer": {
@@ -79,9 +79,9 @@
     "payload_behaviour": 1
    },
    "installer-inno": {
-    "runs": 3,
-    "finished": 3,
-    "payload_behaviour": 2
+    "runs": 4,
+    "finished": 4,
+    "payload_behaviour": 3
    },
    "installer-msi-wrapper": {
     "runs": 1,
@@ -178,9 +178,9 @@
     "payload_behaviour": 7
    },
    "go-crypto": {
-    "runs": 3,
-    "finished": 3,
-    "payload_behaviour": 3
+    "runs": 4,
+    "finished": 4,
+    "payload_behaviour": 4
    },
    "go-network": {
     "runs": 5,
@@ -213,8 +213,8 @@
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 13,
-    "finished": 13,
+    "runs": 15,
+    "finished": 15,
     "payload_behaviour": 4
    },
    "rust-network": {
@@ -233,8 +233,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 43,
-  "v3/linux": 53,
+  "v3/windows": 45,
+  "v3/linux": 56,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

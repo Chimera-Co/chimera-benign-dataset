@@ -1,0 +1,74 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "0168ff73113de5ed1b22128c23270e93ddae7d94df16c1df1f8e273ab693aea4",
+    "file_name": "hexyl",
+    "file_type": "ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, not stripped",
+    "size_bytes": 1378632
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 2,
+    "max_depth": 1,
+    "names": [
+      "/usr/bin/dash",
+      "/home/arjun/Downloads/hexyl"
+    ],
+    "command_lines": [
+      "/bin/sh -c /home/arjun/Downloads/hexyl -n 256 /bin/ls",
+      "/home/arjun/Downloads/hexyl -n 256 /bin/ls"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 2,
+    "mprotect": 4,
+    "getuid": 1,
+    "geteuid": 2,
+    "vfork": 1
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "mprotect"
+  ],
+  "files": {
+    "created": 0,
+    "written": 0,
+    "deleted": 0,
+    "paths": []
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "f9958b15b9c5e2ed21162dcd21e514b51a03efc8dcbf730546c3dbef8a2eba2a",
+    "file_name": "choose",
+    "file_type": "ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=04367fdc180220cbdae44ee66acd3dfa69bf94ba, not stripped",
+    "size_bytes": 3527408
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 4,
+    "max_depth": 1,
+    "names": [
+      "/usr/bin/dash",
+      "/usr/bin/ps",
+      "/home/arjun/Downloads/choose",
+      "/usr/bin/head"
+    ],
+    "command_lines": [
+      "/bin/sh -c ps aux | /home/arjun/Downloads/choose 0 1 10 | head -20",
+      "ps aux",
+      "/home/arjun/Downloads/choose 0 1 10",
+      "head -20"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 4,
+    "mprotect": 19,
+    "getuid": 1,
+    "geteuid": 3,
+    "clone": 3,
+    "prctl": 6,
+    "getdents64": 2,
+    "socket": 2,
+    "connect": 2
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "clone",
+    "clone",
+    "execve",
+    "clone",
+    "execve",
+    "mprotect",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "prctl",
+    "prctl",
+    "prctl",
+    "prctl",
+    "prctl",
+    "prctl",
+    "geteuid",
+    "mprotect",
+    "getdents64",
+    "socket",
+    "connect",
+    "socket",
+    "connect",
+    "getdents64"
+  ],
+  "files": {
+    "created": 0,
+    "written": 0,
+    "deleted": 0,
+    "paths": []
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}
