@@ -1,0 +1,33 @@
+{
+ "key": "327720a6dba0e816dbd761f2211140108f579e886bf88075f73da2d5fba5dfc1/L/1",
+ "sha256": "327720a6dba0e816dbd761f2211140108f579e886bf88075f73da2d5fba5dfc1",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "f8e37d4d-1c67-48d3-8580-2884dabdac9e",
+ "submitted": "2026-10-23T03:21:03.906160+00:00",
+ "completed": "2026-10-23T03:24:30.696286+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "/home/arjun/.gost",
+  "/home/arjun/.gost/auto-ca-cert.pem",
+  "/home/arjun/.gost/auto-ca-key.pem"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 120.23,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "gost 3.3.1",
+ "role": "benign"
+}

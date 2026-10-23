@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:14:33+00:00",
+ "generated": "2026-10-23T03:24:36+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,38 +16,39 @@
   "linux": 69
  },
  "done": {
-  "windows": 35,
-  "linux": 44
+  "windows": 37,
+  "linux": 47
  },
  "status": {
   "windows": {
-   "finished": 35
+   "finished": 37
   },
   "linux": {
-   "finished": 44
+   "finished": 47
   }
  },
  "telemetry_complete": {
-  "windows": 35,
-  "linux": 43
+  "windows": 37,
+  "linux": 46
  },
  "payload_behaviour": {
-  "windows": 22,
-  "linux": 27
+  "windows": 24,
+  "linux": 29
  },
  "persistence": {
-  "windows": 5,
+  "windows": 6,
   "linux": 8
  },
  "network_intent": {
-  "windows": 11,
-  "linux": 7
+  "windows": 12,
+  "linux": 8
  },
  "by_category": {
   "windows": {
    "admin-script-batch": {
-    "runs": 1,
-    "finished": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 1
    },
    "admin-script-powershell": {
     "runs": 4,
@@ -103,6 +104,11 @@
     "payload_behaviour": 1
    },
    "network-tool-installer": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "pyinstaller-network": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
@@ -171,14 +177,24 @@
     "finished": 5,
     "payload_behaviour": 5
    },
+   "go-network-proxy": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "go-network-recon": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "go-server": {
     "runs": 3,
     "finished": 3,
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 10,
-    "finished": 10,
+    "runs": 11,
+    "finished": 11,
     "payload_behaviour": 3
    },
    "rust-network": {
@@ -192,8 +208,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 35,
-  "v3/linux": 44,
+  "v3/windows": 37,
+  "v3/linux": 47,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

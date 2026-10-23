@@ -1,0 +1,31 @@
+{
+ "key": "97c9105a74ac28ffe60d4b4b3f145f99499f71e47abc3924546aea2605e33c18/H3/1",
+ "sha256": "97c9105a74ac28ffe60d4b4b3f145f99499f71e47abc3924546aea2605e33c18",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "6db8c952-2807-431c-ac13-b9d3ad1f25e1",
+ "submitted": "2026-10-23T03:13:05.324698+00:00",
+ "completed": "2026-10-23T03:16:50.472472+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 8,
+ "persistence": true,
+ "persistence_evidence": [
+  "\\REGISTRY\\USER\\S-1-5-21-518820170-3810429016-285673562-1001\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\CompanyAgent"
+ ],
+ "file_drops": 0,
+ "file_drop_evidence": [],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 64.31,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "user-setup 1.0",
+ "role": "benign"
+}
