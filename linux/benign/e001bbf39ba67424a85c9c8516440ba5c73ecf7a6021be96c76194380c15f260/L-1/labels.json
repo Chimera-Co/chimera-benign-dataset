@@ -1,0 +1,33 @@
+{
+ "key": "e001bbf39ba67424a85c9c8516440ba5c73ecf7a6021be96c76194380c15f260/L/1",
+ "sha256": "e001bbf39ba67424a85c9c8516440ba5c73ecf7a6021be96c76194380c15f260",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "2050782b-3263-49c9-91a7-148775315713",
+ "submitted": "2026-10-23T04:14:07.631145+00:00",
+ "completed": "2026-10-23T04:17:28.207310+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "/home/arjun/.config/k6",
+  "/home/arjun/.config/k6/installation-id",
+  "/tmp/t.js"
+ ],
+ "dns_queries": 2,
+ "connections": 1488,
+ "http_requests": 500,
+ "network_intent": true,
+ "sample_lifetime_s": 20.42,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "k6 2.3.0",
+ "role": "benign"
+}

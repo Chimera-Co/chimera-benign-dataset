@@ -1,24 +1,25 @@
-# Benign batch v3 (generated 2026-10-23T04:14:51+00:00)
+# Benign batch v3 (generated 2026-10-23T04:24:54+00:00)
 
 Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 
 | OS | Done / scheduled | Finished | Telemetry complete | Payload behaviour | Persistence | Network intent | Other statuses |
 |---|---|---|---|---|---|---|---|
-| windows | 51 / 75 | 51 | 51 | 32 | 8 | 16 | – |
-| linux | 62 / 69 | 62 | 61 | 38 | 8 | 14 | – |
+| windows | 53 / 75 | 53 | 53 | 34 | 9 | 17 | – |
+| linux | 65 / 69 | 65 | 64 | 41 | 8 | 16 | – |
 
 ## Runs by category
 
 | OS | Category | Runs | Finished | Payload behaviour |
 |---|---|---|---|---|
 | windows | admin-script-batch | 2 | 2 | 1 |
-| windows | admin-script-powershell | 5 | 5 | 5 |
+| windows | admin-script-powershell | 6 | 6 | 6 |
 | windows | browser-installer | 2 | 2 | 2 |
 | windows | crypto-tool | 1 | 1 | 0 |
 | windows | go-backup | 2 | 2 | 0 |
 | windows | go-cli | 1 | 1 | 0 |
 | windows | go-network | 4 | 4 | 1 |
 | windows | hardware-prober-installer | 1 | 1 | 1 |
+| windows | installer-burn | 1 | 1 | 1 |
 | windows | installer-inno | 4 | 4 | 3 |
 | windows | installer-msi-wrapper | 1 | 1 | 1 |
 | windows | installer-nsis | 3 | 3 | 3 |
@@ -39,10 +40,11 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | admin-script-python | 1 | 1 | 1 |
 | linux | admin-script-shell | 7 | 7 | 7 |
 | linux | c-cli | 1 | 1 | 0 |
+| linux | c-packer | 1 | 1 | 1 |
 | linux | c-server | 1 | 1 | 0 |
 | linux | go-cli | 11 | 11 | 7 |
 | linux | go-crypto | 4 | 4 | 4 |
-| linux | go-network | 5 | 5 | 5 |
+| linux | go-network | 7 | 7 | 7 |
 | linux | go-network-proxy | 1 | 1 | 1 |
 | linux | go-network-recon | 1 | 1 | 1 |
 | linux | go-network-tunnel | 1 | 1 | 1 |
@@ -87,11 +89,13 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | gost 3.3.1 | go-network-proxy | finished | yes | yes | no | 2 | no |
 | linux | grex 1.4.6 | rust-cli | finished | yes | no | no | 1 | no |
 | linux | gron 0.7.1 | go-cli | finished | yes | yes | no | 3 | yes |
+| linux | grpcurl 1.9.4 | go-network | finished | yes | yes | no | 1 | yes |
 | linux | hexyl 0.17.0 | rust-cli | finished | yes | no | no | 1 | no |
 | linux | httpx 1.12.0 | go-network-recon | finished | yes | yes | no | 2 | yes |
 | linux | hugo 0.168.0 | go-cli | finished | yes | yes | no | 2 | no |
 | linux | hyperfine 2.0.0 | rust-cli | finished | yes | no | no | 246 | no |
 | linux | jq 1.8.2 | c-cli | finished | yes | no | no | 3 | no |
+| linux | k6 2.3.0 | go-network | finished | yes | yes | no | 1 | yes |
 | linux | k9s 0.51.0 | go-cli | finished | yes | yes | no | 2 | no |
 | linux | log-rotate-archive 1.0 | admin-script-shell | finished | yes | yes | no | 13 | yes |
 | linux | lsd 1.2.0 | rust-cli | finished | yes | no | no | 1 | no |
@@ -116,6 +120,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | traefik 3.7.16 | go-server | finished | yes | no | no | 1 | no |
 | linux | trivy 0.76.1 | go-security-scanner | finished | yes | yes | no | 1 | yes |
 | linux | ttyd 1.7.7 | c-server | finished | yes | no | no | 1 | no |
+| linux | upx 5.2.1 | c-packer | finished | yes | yes | no | 4 | no |
 | linux | websocat 1.14.1 | rust-network | finished | yes | no | no | 1 | no |
 | linux | xh 0.26.3 | rust-network | finished | yes | yes | no | 2 | yes |
 | linux | yazi 26.9.1 | rust-cli | finished | yes | no | no | 2 | no |
@@ -144,6 +149,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | localsend 1.18.2 | installer-inno | finished | yes | no | no | 1 | no |
 | windows | log-collector 1.0 | admin-script-batch | finished | yes | no | no | 6 | no |
 | windows | lsd 1.2.0 | rust-cli | finished | yes | no | no | 1 | no |
+| windows | net-diagnostics 1.0 | admin-script-powershell | finished | yes | yes | no | 5 | yes |
 | windows | nmap 7.992 | network-tool-installer | finished | yes | yes | no | 0 | no |
 | windows | obs-studio 32.2.2 | installer-nsis | finished | yes | yes | no | 4 | no |
 | windows | process-report 1.0 | admin-script-powershell | finished | yes | yes | no | 2 | no |
@@ -153,6 +159,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | pslist latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | psservice latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | puttygen 0.85 | crypto-tool | finished | yes | no | no | 0 | no |
+| windows | python 3.14.9 | installer-burn | finished | yes | yes | yes | 2 | no |
 | windows | restic 0.19.1 | go-backup | finished | yes | no | no | 1 | no |
 | windows | ripgrep 15.2.0 | rust-cli | finished | yes | no | no | 1 | no |
 | windows | rustdesk 1.5.0 | remote-access-installer | finished | yes | yes | no | 69 | no |

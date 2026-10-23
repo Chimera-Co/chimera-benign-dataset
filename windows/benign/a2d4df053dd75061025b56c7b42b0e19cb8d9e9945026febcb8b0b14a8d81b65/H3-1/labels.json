@@ -1,0 +1,32 @@
+{
+ "key": "a2d4df053dd75061025b56c7b42b0e19cb8d9e9945026febcb8b0b14a8d81b65/H3/1",
+ "sha256": "a2d4df053dd75061025b56c7b42b0e19cb8d9e9945026febcb8b0b14a8d81b65",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "8d40fe78-9229-4c27-972d-981c19467ae9",
+ "submitted": "2026-10-23T04:14:01.472355+00:00",
+ "completed": "2026-10-23T04:17:46.621956+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 5,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_eucnyjkf.d53.psm1",
+  "C:\\Users\\Shreyas\\AppData\\Local\\Temp\\__PSScriptPolicyTest_iqc5keqg.oo0.ps1"
+ ],
+ "dns_queries": 2,
+ "connections": 2,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 124.92,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "net-diagnostics 1.0",
+ "role": "benign"
+}

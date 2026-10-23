@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T04:14:51+00:00",
+ "generated": "2026-10-23T04:24:54+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,32 +16,32 @@
   "linux": 69
  },
  "done": {
-  "windows": 51,
-  "linux": 62
+  "windows": 53,
+  "linux": 65
  },
  "status": {
   "windows": {
-   "finished": 51
+   "finished": 53
   },
   "linux": {
-   "finished": 62
+   "finished": 65
   }
  },
  "telemetry_complete": {
-  "windows": 51,
-  "linux": 61
+  "windows": 53,
+  "linux": 64
  },
  "payload_behaviour": {
-  "windows": 32,
-  "linux": 38
+  "windows": 34,
+  "linux": 41
  },
  "persistence": {
-  "windows": 8,
+  "windows": 9,
   "linux": 8
  },
  "network_intent": {
-  "windows": 16,
-  "linux": 14
+  "windows": 17,
+  "linux": 16
  },
  "by_category": {
   "windows": {
@@ -51,9 +51,9 @@
     "payload_behaviour": 1
    },
    "admin-script-powershell": {
-    "runs": 5,
-    "finished": 5,
-    "payload_behaviour": 5
+    "runs": 6,
+    "finished": 6,
+    "payload_behaviour": 6
    },
    "browser-installer": {
     "runs": 2,
@@ -78,6 +78,11 @@
     "payload_behaviour": 1
    },
    "hardware-prober-installer": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "installer-burn": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
@@ -182,6 +187,11 @@
     "runs": 1,
     "finished": 1
    },
+   "c-packer": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "c-server": {
     "runs": 1,
     "finished": 1
@@ -197,9 +207,9 @@
     "payload_behaviour": 4
    },
    "go-network": {
-    "runs": 5,
-    "finished": 5,
-    "payload_behaviour": 5
+    "runs": 7,
+    "finished": 7,
+    "payload_behaviour": 7
    },
    "go-network-proxy": {
     "runs": 1,
@@ -261,8 +271,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 51,
-  "v3/linux": 62,
+  "v3/windows": 53,
+  "v3/linux": 65,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

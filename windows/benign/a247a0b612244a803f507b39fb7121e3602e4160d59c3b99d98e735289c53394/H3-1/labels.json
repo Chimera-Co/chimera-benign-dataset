@@ -1,0 +1,35 @@
+{
+ "key": "a247a0b612244a803f507b39fb7121e3602e4160d59c3b99d98e735289c53394/H3/1",
+ "sha256": "a247a0b612244a803f507b39fb7121e3602e4160d59c3b99d98e735289c53394",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "eae588b6-aa0d-4f24-9035-090efc3ea661",
+ "submitted": "2026-10-23T04:17:48.330458+00:00",
+ "completed": "2026-10-23T04:21:38.682511+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": true,
+ "persistence_evidence": [
+  "\\REGISTRY\\USER\\S-1-5-21-518820170-3810429016-285673562-1001\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUNONCE\\{2bbbc384-c6b1-4fdf-8978-8853ea71733c}"
+ ],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "C:\\Windows\\Temp\\{51B4B8BC-A76E-4ABF-92B7-9C211B794993}\\.cr\\python-3.14.9-amd64.exe",
+  "C:\\Windows\\Temp\\{7C16207F-94E4-4021-8180-8E49A9AB0101}\\.ba\\PythonBA.dll",
+  "C:\\Windows\\Temp\\{7C16207F-94E4-4021-8180-8E49A9AB0101}\\.be\\python-3.14.9-amd64.exe"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": null,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "python 3.14.9",
+ "role": "benign"
+}

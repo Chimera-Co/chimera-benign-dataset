@@ -1,0 +1,32 @@
+{
+ "key": "287b3dffe9dcafd8e366e162ac4ab41e5cf45a3c6768970256af0869288d84a1/L/1",
+ "sha256": "287b3dffe9dcafd8e366e162ac4ab41e5cf45a3c6768970256af0869288d84a1",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "0dd281be-4bc7-4052-ae3a-b7f3be0c93e6",
+ "submitted": "2026-10-23T04:17:28.238387+00:00",
+ "completed": "2026-10-23T04:20:43.361432+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 4,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "/tmp/ls2",
+  "/tmp/ls2.upx"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.31,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "upx 5.2.1",
+ "role": "benign"
+}
