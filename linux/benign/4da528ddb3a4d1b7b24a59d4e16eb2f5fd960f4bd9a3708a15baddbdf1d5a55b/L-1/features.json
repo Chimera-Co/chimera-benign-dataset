@@ -1,0 +1,80 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "4da528ddb3a4d1b7b24a59d4e16eb2f5fd960f4bd9a3708a15baddbdf1d5a55b",
+    "file_name": "shellcheck",
+    "file_type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=b26f8179194726f7313fd0bf5cf0f639bbde5023, stripped",
+    "size_bytes": 16213136
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 2,
+    "max_depth": 1,
+    "names": [
+      "/usr/bin/dash",
+      "/home/arjun/Downloads/shellcheck"
+    ],
+    "command_lines": [
+      "/bin/sh -c /home/arjun/Downloads/shellcheck /etc/profile /etc/bash.bashrc || true",
+      "/home/arjun/Downloads/shellcheck /etc/profile /etc/bash.bashrc"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 2,
+    "mprotect": 4,
+    "getuid": 1,
+    "geteuid": 2,
+    "vfork": 1,
+    "sysinfo": 1,
+    "clone": 1,
+    "prctl": 1
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "sysinfo",
+    "mprotect",
+    "clone",
+    "prctl"
+  ],
+  "files": {
+    "created": 0,
+    "written": 0,
+    "deleted": 0,
+    "paths": []
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}

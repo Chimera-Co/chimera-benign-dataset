@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:54:45+00:00",
+ "generated": "2026-10-23T04:04:48+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,32 +16,32 @@
   "linux": 69
  },
  "done": {
-  "windows": 45,
-  "linux": 56
+  "windows": 48,
+  "linux": 59
  },
  "status": {
   "windows": {
-   "finished": 45
+   "finished": 48
   },
   "linux": {
-   "finished": 56
+   "finished": 59
   }
  },
  "telemetry_complete": {
-  "windows": 45,
-  "linux": 55
+  "windows": 48,
+  "linux": 58
  },
  "payload_behaviour": {
-  "windows": 29,
-  "linux": 35
+  "windows": 31,
+  "linux": 37
  },
  "persistence": {
   "windows": 7,
   "linux": 8
  },
  "network_intent": {
-  "windows": 15,
-  "linux": 12
+  "windows": 16,
+  "linux": 13
  },
  "by_category": {
   "windows": {
@@ -69,8 +69,8 @@
     "finished": 1
    },
    "go-network": {
-    "runs": 3,
-    "finished": 3,
+    "runs": 4,
+    "finished": 4,
     "payload_behaviour": 1
    },
    "hardware-prober-installer": {
@@ -142,6 +142,16 @@
     "finished": 1,
     "payload_behaviour": 1
    },
+   "sysinternals-driver-service": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "sysinternals-network": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "vpn-installer": {
     "runs": 1,
     "finished": 1,
@@ -207,19 +217,24 @@
     "finished": 3,
     "payload_behaviour": 1
    },
+   "haskell-cli": {
+    "runs": 1,
+    "finished": 1
+   },
    "pyinstaller-network": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 15,
-    "finished": 15,
-    "payload_behaviour": 4
+    "runs": 16,
+    "finished": 16,
+    "payload_behaviour": 5
    },
    "rust-network": {
-    "runs": 1,
-    "finished": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 1
    },
    "rust-network-tunnel": {
     "runs": 2,
@@ -233,8 +248,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 45,
-  "v3/linux": 56,
+  "v3/windows": 48,
+  "v3/linux": 59,
   "earlier/linux": 12,
   "earlier/windows": 30
  }
