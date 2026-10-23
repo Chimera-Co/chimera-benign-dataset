@@ -1,0 +1,32 @@
+{
+ "key": "d1dfca6ae10a1ad4540bb94e64f0510077c47008920a9b554986b39dca573d83/L/1",
+ "sha256": "d1dfca6ae10a1ad4540bb94e64f0510077c47008920a9b554986b39dca573d83",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "3f061c0e-59c7-45d8-ac45-c5f1db009351",
+ "submitted": "2026-10-23T04:10:45.151070+00:00",
+ "completed": "2026-10-23T04:14:07.607017+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 1,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "/tmp/trivy-2871665211",
+  "/tmp/trivy-2871665211/analyzer-composite-2963582419"
+ ],
+ "dns_queries": 2,
+ "connections": 6,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 2.67,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "trivy 0.76.1",
+ "role": "benign"
+}

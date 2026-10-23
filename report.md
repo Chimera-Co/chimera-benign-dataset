@@ -1,11 +1,11 @@
-# Benign batch v3 (generated 2026-10-23T04:04:48+00:00)
+# Benign batch v3 (generated 2026-10-23T04:14:51+00:00)
 
 Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 
 | OS | Done / scheduled | Finished | Telemetry complete | Payload behaviour | Persistence | Network intent | Other statuses |
 |---|---|---|---|---|---|---|---|
-| windows | 48 / 75 | 48 | 48 | 31 | 7 | 16 | – |
-| linux | 59 / 69 | 59 | 58 | 37 | 8 | 13 | – |
+| windows | 51 / 75 | 51 | 51 | 32 | 8 | 16 | – |
+| linux | 62 / 69 | 62 | 61 | 38 | 8 | 14 | – |
 
 ## Runs by category
 
@@ -14,20 +14,21 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | admin-script-batch | 2 | 2 | 1 |
 | windows | admin-script-powershell | 5 | 5 | 5 |
 | windows | browser-installer | 2 | 2 | 2 |
+| windows | crypto-tool | 1 | 1 | 0 |
 | windows | go-backup | 2 | 2 | 0 |
 | windows | go-cli | 1 | 1 | 0 |
 | windows | go-network | 4 | 4 | 1 |
 | windows | hardware-prober-installer | 1 | 1 | 1 |
 | windows | installer-inno | 4 | 4 | 3 |
 | windows | installer-msi-wrapper | 1 | 1 | 1 |
-| windows | installer-nsis | 2 | 2 | 2 |
+| windows | installer-nsis | 3 | 3 | 3 |
 | windows | installer-stub-downloader | 1 | 1 | 1 |
 | windows | network-cli | 1 | 1 | 1 |
 | windows | network-tool-installer | 1 | 1 | 1 |
 | windows | pyinstaller-network | 1 | 1 | 1 |
 | windows | remote-access-installer | 2 | 2 | 2 |
 | windows | remote-ssh-client | 1 | 1 | 1 |
-| windows | rust-cli | 3 | 3 | 0 |
+| windows | rust-cli | 4 | 4 | 0 |
 | windows | sync-installer | 1 | 1 | 1 |
 | windows | sysinternals-cli | 8 | 8 | 2 |
 | windows | sysinternals-driver | 1 | 1 | 1 |
@@ -45,13 +46,15 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | go-network-proxy | 1 | 1 | 1 |
 | linux | go-network-recon | 1 | 1 | 1 |
 | linux | go-network-tunnel | 1 | 1 | 1 |
+| linux | go-security-scanner | 1 | 1 | 1 |
 | linux | go-server | 3 | 3 | 1 |
 | linux | haskell-cli | 1 | 1 | 0 |
 | linux | pyinstaller-network | 1 | 1 | 1 |
-| linux | rust-cli | 16 | 16 | 5 |
+| linux | rust-cli | 17 | 17 | 5 |
 | linux | rust-network | 2 | 2 | 1 |
 | linux | rust-network-tunnel | 2 | 2 | 2 |
 | linux | rust-server | 1 | 1 | 0 |
+| linux | rust-shell | 1 | 1 | 0 |
 
 ## Runs
 
@@ -82,6 +85,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | gh 2.103.0 | go-network | finished | yes | yes | no | 3 | no |
 | linux | glow 3.0.0 | go-cli | finished | yes | yes | no | 1 | no |
 | linux | gost 3.3.1 | go-network-proxy | finished | yes | yes | no | 2 | no |
+| linux | grex 1.4.6 | rust-cli | finished | yes | no | no | 1 | no |
 | linux | gron 0.7.1 | go-cli | finished | yes | yes | no | 3 | yes |
 | linux | hexyl 0.17.0 | rust-cli | finished | yes | no | no | 1 | no |
 | linux | httpx 1.12.0 | go-network-recon | finished | yes | yes | no | 2 | yes |
@@ -97,6 +101,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | nats-server 2.15.1 | go-server | finished | yes | no | no | 1 | no |
 | linux | navi 2.24.0 | rust-cli | finished | yes | yes | yes | 2 | no |
 | linux | net-recon 1.0 | admin-script-shell | finished | yes | yes | no | 14 | yes |
+| linux | nushell 0.116.1 | rust-shell | finished | yes | no | no | 1 | no |
 | linux | ouch 0.8.3 | rust-cli | finished | yes | yes | no | 4 | no |
 | linux | proc-audit 1.0 | admin-script-shell | finished | no | yes | no | 127 | no |
 | linux | procs 0.14.12 | rust-cli | finished | yes | no | no | 1 | no |
@@ -109,6 +114,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | linux | starship 1.27.0 | rust-cli | finished | yes | yes | yes | 3 | no |
 | linux | step 0.31.0 | go-crypto | finished | yes | yes | no | 2 | no |
 | linux | traefik 3.7.16 | go-server | finished | yes | no | no | 1 | no |
+| linux | trivy 0.76.1 | go-security-scanner | finished | yes | yes | no | 1 | yes |
 | linux | ttyd 1.7.7 | c-server | finished | yes | no | no | 1 | no |
 | linux | websocat 1.14.1 | rust-network | finished | yes | no | no | 1 | no |
 | linux | xh 0.26.3 | rust-network | finished | yes | yes | no | 2 | yes |
@@ -146,13 +152,16 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | psinfo latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | pslist latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | psservice latest | sysinternals-cli | finished | yes | no | no | 1 | no |
+| windows | puttygen 0.85 | crypto-tool | finished | yes | no | no | 0 | no |
 | windows | restic 0.19.1 | go-backup | finished | yes | no | no | 1 | no |
+| windows | ripgrep 15.2.0 | rust-cli | finished | yes | no | no | 1 | no |
 | windows | rustdesk 1.5.0 | remote-access-installer | finished | yes | yes | no | 69 | no |
 | windows | sdelete latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | security-baseline 1.0 | admin-script-powershell | finished | yes | yes | no | 5 | yes |
 | windows | sigcheck latest | sysinternals-cli | finished | yes | yes | no | 1 | yes |
 | windows | software-installer 1.0 | admin-script-powershell | finished | yes | yes | yes | 1 | yes |
 | windows | spotify latest | installer-stub-downloader | finished | yes | yes | no | 0 | yes |
+| windows | steam latest | installer-nsis | finished | yes | yes | yes | 2 | no |
 | windows | sysmon latest | sysinternals-driver-service | finished | yes | yes | no | 6 | no |
 | windows | tailscale 1.104.2 | vpn-installer | finished | yes | yes | yes | 2 | yes |
 | windows | teamviewer 15 | remote-access-installer | finished | yes | yes | no | 5 | no |

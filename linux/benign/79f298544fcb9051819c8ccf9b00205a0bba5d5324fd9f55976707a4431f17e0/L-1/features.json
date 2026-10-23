@@ -1,0 +1,74 @@
+{
+  "schema": "chimera-features/1",
+  "sample": {
+    "sha256": "79f298544fcb9051819c8ccf9b00205a0bba5d5324fd9f55976707a4431f17e0",
+    "file_name": "grex",
+    "file_type": "ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=a5bb47e4a265028a17e1334773ba05ea1ab10532, not stripped",
+    "size_bytes": 4027800
+  },
+  "run": {
+    "guest_os": "linux",
+    "timeout_s": 180.0,
+    "complete": true,
+    "vm_stalled": false,
+    "drakvuf_errors": []
+  },
+  "processes": {
+    "count": 2,
+    "max_depth": 1,
+    "names": [
+      "/usr/bin/dash",
+      "/home/arjun/Downloads/grex"
+    ],
+    "command_lines": [
+      "/bin/sh -c /home/arjun/Downloads/grex foo123 foo456 bar7",
+      "/home/arjun/Downloads/grex foo123 foo456 bar7"
+    ],
+    "exited_early": true
+  },
+  "api_calls": {
+    "setsid": 1,
+    "setregid": 1,
+    "setreuid": 1,
+    "execve": 2,
+    "mprotect": 4,
+    "getuid": 1,
+    "geteuid": 2,
+    "vfork": 1
+  },
+  "api_sequence": [
+    "setsid",
+    "setregid",
+    "setreuid",
+    "execve",
+    "mprotect",
+    "mprotect",
+    "mprotect",
+    "getuid",
+    "geteuid",
+    "geteuid",
+    "vfork",
+    "execve",
+    "mprotect"
+  ],
+  "files": {
+    "created": 0,
+    "written": 0,
+    "deleted": 0,
+    "paths": []
+  },
+  "registry": {
+    "set_value": 0,
+    "create_key": 0,
+    "delete": 0,
+    "keys": [],
+    "autorun_touched": false
+  },
+  "network": {
+    "dns_queries": [],
+    "connections": 0,
+    "remote_endpoints": [],
+    "http_requests": 0
+  },
+  "ttps": []
+}

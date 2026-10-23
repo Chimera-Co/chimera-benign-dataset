@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T04:04:48+00:00",
+ "generated": "2026-10-23T04:14:51+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,32 +16,32 @@
   "linux": 69
  },
  "done": {
-  "windows": 48,
-  "linux": 59
+  "windows": 51,
+  "linux": 62
  },
  "status": {
   "windows": {
-   "finished": 48
+   "finished": 51
   },
   "linux": {
-   "finished": 59
+   "finished": 62
   }
  },
  "telemetry_complete": {
-  "windows": 48,
-  "linux": 58
+  "windows": 51,
+  "linux": 61
  },
  "payload_behaviour": {
-  "windows": 31,
-  "linux": 37
+  "windows": 32,
+  "linux": 38
  },
  "persistence": {
-  "windows": 7,
+  "windows": 8,
   "linux": 8
  },
  "network_intent": {
   "windows": 16,
-  "linux": 13
+  "linux": 14
  },
  "by_category": {
   "windows": {
@@ -59,6 +59,10 @@
     "runs": 2,
     "finished": 2,
     "payload_behaviour": 2
+   },
+   "crypto-tool": {
+    "runs": 1,
+    "finished": 1
    },
    "go-backup": {
     "runs": 2,
@@ -89,9 +93,9 @@
     "payload_behaviour": 1
    },
    "installer-nsis": {
-    "runs": 2,
-    "finished": 2,
-    "payload_behaviour": 2
+    "runs": 3,
+    "finished": 3,
+    "payload_behaviour": 3
    },
    "installer-stub-downloader": {
     "runs": 1,
@@ -124,8 +128,8 @@
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 3,
-    "finished": 3
+    "runs": 4,
+    "finished": 4
    },
    "sync-installer": {
     "runs": 1,
@@ -212,6 +216,11 @@
     "finished": 1,
     "payload_behaviour": 1
    },
+   "go-security-scanner": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "go-server": {
     "runs": 3,
     "finished": 3,
@@ -227,8 +236,8 @@
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 16,
-    "finished": 16,
+    "runs": 17,
+    "finished": 17,
     "payload_behaviour": 5
    },
    "rust-network": {
@@ -244,12 +253,16 @@
    "rust-server": {
     "runs": 1,
     "finished": 1
+   },
+   "rust-shell": {
+    "runs": 1,
+    "finished": 1
    }
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 48,
-  "v3/linux": 59,
+  "v3/windows": 51,
+  "v3/linux": 62,
   "earlier/linux": 12,
   "earlier/windows": 30
  }
