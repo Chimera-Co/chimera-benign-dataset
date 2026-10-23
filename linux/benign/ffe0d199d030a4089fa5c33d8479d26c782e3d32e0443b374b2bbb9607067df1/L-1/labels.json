@@ -1,0 +1,35 @@
+{
+ "key": "ffe0d199d030a4089fa5c33d8479d26c782e3d32e0443b374b2bbb9607067df1/L/1",
+ "sha256": "ffe0d199d030a4089fa5c33d8479d26c782e3d32e0443b374b2bbb9607067df1",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "d41c0460-f115-4dc8-a4a4-8c3d3d26ad8c",
+ "submitted": "2026-10-23T02:55:00.076650+00:00",
+ "completed": "2026-10-23T02:58:20.379205+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 3,
+ "persistence": true,
+ "persistence_evidence": [
+  "/home/arjun/.bashrc"
+ ],
+ "file_drops": 3,
+ "file_drop_evidence": [
+  "/home/arjun/.bashrc",
+  "/home/arjun/.cache/starship",
+  "/tmp/starship.sh"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.19,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "starship 1.27.0",
+ "role": "benign"
+}

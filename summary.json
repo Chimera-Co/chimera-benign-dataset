@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T02:49:27+00:00",
+ "generated": "2026-10-23T02:59:30+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,31 +16,31 @@
   "linux": 44
  },
  "done": {
-  "windows": 28,
-  "linux": 40
+  "windows": 31,
+  "linux": 43
  },
  "status": {
   "windows": {
-   "finished": 28
+   "finished": 31
   },
   "linux": {
-   "finished": 40
+   "finished": 43
   }
  },
  "telemetry_complete": {
-  "windows": 28,
-  "linux": 39
+  "windows": 31,
+  "linux": 42
  },
  "payload_behaviour": {
-  "windows": 17,
-  "linux": 25
+  "windows": 19,
+  "linux": 27
  },
  "persistence": {
-  "windows": 3,
-  "linux": 6
+  "windows": 4,
+  "linux": 8
  },
  "network_intent": {
-  "windows": 8,
+  "windows": 10,
   "linux": 7
  },
  "by_category": {
@@ -55,13 +55,18 @@
     "payload_behaviour": 3
    },
    "browser-installer": {
-    "runs": 1,
-    "finished": 1,
-    "payload_behaviour": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
    },
    "go-backup": {
     "runs": 2,
     "finished": 2
+   },
+   "go-network": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
    },
    "installer-inno": {
     "runs": 3,
@@ -99,8 +104,8 @@
     "payload_behaviour": 2
    },
    "rust-cli": {
-    "runs": 2,
-    "finished": 2
+    "runs": 3,
+    "finished": 3
    },
    "sync-installer": {
     "runs": 1,
@@ -134,9 +139,9 @@
     "finished": 1
    },
    "go-cli": {
-    "runs": 9,
-    "finished": 9,
-    "payload_behaviour": 6
+    "runs": 11,
+    "finished": 11,
+    "payload_behaviour": 7
    },
    "go-crypto": {
     "runs": 3,
@@ -154,9 +159,9 @@
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 9,
-    "finished": 9,
-    "payload_behaviour": 2
+    "runs": 10,
+    "finished": 10,
+    "payload_behaviour": 3
    },
    "rust-network": {
     "runs": 1,
@@ -169,8 +174,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 28,
-  "v3/linux": 40,
+  "v3/windows": 31,
+  "v3/linux": 43,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

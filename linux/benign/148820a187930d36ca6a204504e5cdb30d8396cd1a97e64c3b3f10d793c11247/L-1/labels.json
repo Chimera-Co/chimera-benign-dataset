@@ -1,0 +1,38 @@
+{
+ "key": "148820a187930d36ca6a204504e5cdb30d8396cd1a97e64c3b3f10d793c11247/L/1",
+ "sha256": "148820a187930d36ca6a204504e5cdb30d8396cd1a97e64c3b3f10d793c11247",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "ba34fc8d-9e29-4bea-a2df-f53915f874bf",
+ "submitted": "2026-10-23T02:51:39.813247+00:00",
+ "completed": "2026-10-23T02:55:00.039395+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 14,
+ "persistence": true,
+ "persistence_evidence": [
+  "/home/arjun/.bashrc"
+ ],
+ "file_drops": 6,
+ "file_drop_evidence": [
+  "/home/arjun/.bashrc",
+  "/home/arjun/.local/share/direnv",
+  "/home/arjun/.local/share/direnv/allow",
+  "/home/arjun/.local/share/direnv/allow/4981b42c9ca7e480821738b4bebf1d59acf8e517e2eccd032d8d15090d59d5d2",
+  "/tmp/d",
+  "/tmp/d/.envrc"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 1.38,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "direnv 2.38.2",
+ "role": "benign"
+}
