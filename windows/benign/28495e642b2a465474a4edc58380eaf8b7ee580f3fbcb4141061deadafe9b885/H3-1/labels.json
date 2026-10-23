@@ -1,0 +1,33 @@
+{
+ "key": "28495e642b2a465474a4edc58380eaf8b7ee580f3fbcb4141061deadafe9b885/H3/1",
+ "sha256": "28495e642b2a465474a4edc58380eaf8b7ee580f3fbcb4141061deadafe9b885",
+ "arm": "H3",
+ "run": 1,
+ "os": "windows",
+ "task_uid": "5dd98fa5-cd36-4136-a5ce-c7874f0b0e52",
+ "submitted": "2026-10-23T03:09:28.980104+00:00",
+ "completed": "2026-10-23T03:13:04.133500+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 0,
+ "persistence": true,
+ "persistence_evidence": [
+  "\\REGISTRY\\MACHINE\\SYSTEM\\CONTROLSET001\\SERVICES\\PROCMON25\\ImagePath"
+ ],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "C:\\Windows\\system32\\Drivers\\PROCMON25.SYS"
+ ],
+ "dns_queries": 8,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": null,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "procmon latest",
+ "role": "benign"
+}

@@ -1,11 +1,11 @@
-# Benign batch v3 (generated 2026-10-23T03:09:33+00:00)
+# Benign batch v3 (generated 2026-10-23T03:14:33+00:00)
 
 Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 
 | OS | Done / scheduled | Finished | Telemetry complete | Payload behaviour | Persistence | Network intent | Other statuses |
 |---|---|---|---|---|---|---|---|
-| windows | 34 / 75 | 34 | 34 | 21 | 4 | 10 | – |
-| linux | 44 / 44 | 44 | 43 | 27 | 8 | 7 | – |
+| windows | 35 / 75 | 35 | 35 | 22 | 5 | 11 | – |
+| linux | 44 / 69 | 44 | 43 | 27 | 8 | 7 | – |
 
 ## Runs by category
 
@@ -28,6 +28,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | rust-cli | 3 | 3 | 0 |
 | windows | sync-installer | 1 | 1 | 1 |
 | windows | sysinternals-cli | 6 | 6 | 1 |
+| windows | sysinternals-driver | 1 | 1 | 1 |
 | windows | vpn-installer | 1 | 1 | 1 |
 | linux | admin-script-python | 1 | 1 | 1 |
 | linux | admin-script-shell | 7 | 7 | 7 |
@@ -109,6 +110,7 @@ Windows arm H3, Linux arm L; 180 s per run; 1 run per program; INetSim network.
 | windows | nmap 7.992 | network-tool-installer | finished | yes | yes | no | 0 | no |
 | windows | obs-studio 32.2.2 | installer-nsis | finished | yes | yes | no | 4 | no |
 | windows | process-report 1.0 | admin-script-powershell | finished | yes | yes | no | 2 | no |
+| windows | procmon latest | sysinternals-driver | finished | yes | yes | yes | 0 | yes |
 | windows | psinfo latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | pslist latest | sysinternals-cli | finished | yes | no | no | 1 | no |
 | windows | psservice latest | sysinternals-cli | finished | yes | no | no | 1 | no |

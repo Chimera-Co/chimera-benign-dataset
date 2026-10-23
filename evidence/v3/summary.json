@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:09:33+00:00",
+ "generated": "2026-10-23T03:14:33+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -13,34 +13,34 @@
  "runs_per_program": 1,
  "scheduled": {
   "windows": 75,
-  "linux": 44
+  "linux": 69
  },
  "done": {
-  "windows": 34,
+  "windows": 35,
   "linux": 44
  },
  "status": {
   "windows": {
-   "finished": 34
+   "finished": 35
   },
   "linux": {
    "finished": 44
   }
  },
  "telemetry_complete": {
-  "windows": 34,
+  "windows": 35,
   "linux": 43
  },
  "payload_behaviour": {
-  "windows": 21,
+  "windows": 22,
   "linux": 27
  },
  "persistence": {
-  "windows": 4,
+  "windows": 5,
   "linux": 8
  },
  "network_intent": {
-  "windows": 10,
+  "windows": 11,
   "linux": 7
  },
  "by_category": {
@@ -126,6 +126,11 @@
     "finished": 6,
     "payload_behaviour": 1
    },
+   "sysinternals-driver": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
    "vpn-installer": {
     "runs": 1,
     "finished": 1,
@@ -187,7 +192,7 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 34,
+  "v3/windows": 35,
   "v3/linux": 44,
   "earlier/linux": 12,
   "earlier/windows": 30
