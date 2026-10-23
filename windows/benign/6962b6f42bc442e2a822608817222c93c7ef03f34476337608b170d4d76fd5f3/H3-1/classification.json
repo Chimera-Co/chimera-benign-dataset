@@ -1,0 +1,12 @@
+{
+  "schema": "chimera-verdict/1",
+  "label": "unknown",
+  "score": 0.2,
+  "family": null,
+  "model": "chimera-stub",
+  "model_version": "1",
+  "explanation": [
+    "Placeholder heuristic, not a trained model; score is not a probability.",
+    "2 sample-scoped TTPs observed."
+  ]
+}

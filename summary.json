@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:34:39+00:00",
+ "generated": "2026-10-23T03:44:42+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,32 +16,32 @@
   "linux": 69
  },
  "done": {
-  "windows": 40,
-  "linux": 50
+  "windows": 43,
+  "linux": 53
  },
  "status": {
   "windows": {
-   "finished": 40
+   "finished": 43
   },
   "linux": {
-   "finished": 50
+   "finished": 53
   }
  },
  "telemetry_complete": {
-  "windows": 40,
-  "linux": 49
+  "windows": 43,
+  "linux": 52
  },
  "payload_behaviour": {
-  "windows": 26,
-  "linux": 32
+  "windows": 28,
+  "linux": 34
  },
  "persistence": {
-  "windows": 6,
+  "windows": 7,
   "linux": 8
  },
  "network_intent": {
-  "windows": 13,
-  "linux": 11
+  "windows": 14,
+  "linux": 12
  },
  "by_category": {
   "windows": {
@@ -133,9 +133,9 @@
     "payload_behaviour": 1
    },
    "sysinternals-cli": {
-    "runs": 6,
-    "finished": 6,
-    "payload_behaviour": 1
+    "runs": 8,
+    "finished": 8,
+    "payload_behaviour": 2
    },
    "sysinternals-driver": {
     "runs": 1,
@@ -143,6 +143,11 @@
     "payload_behaviour": 1
    },
    "vpn-installer": {
+    "runs": 1,
+    "finished": 1,
+    "payload_behaviour": 1
+   },
+   "vpn-installer-stub-downloader": {
     "runs": 1,
     "finished": 1,
     "payload_behaviour": 1
@@ -208,18 +213,18 @@
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 11,
-    "finished": 11,
-    "payload_behaviour": 3
+    "runs": 13,
+    "finished": 13,
+    "payload_behaviour": 4
    },
    "rust-network": {
     "runs": 1,
     "finished": 1
    },
    "rust-network-tunnel": {
-    "runs": 1,
-    "finished": 1,
-    "payload_behaviour": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
    },
    "rust-server": {
     "runs": 1,
@@ -228,8 +233,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 40,
-  "v3/linux": 50,
+  "v3/windows": 43,
+  "v3/linux": 53,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

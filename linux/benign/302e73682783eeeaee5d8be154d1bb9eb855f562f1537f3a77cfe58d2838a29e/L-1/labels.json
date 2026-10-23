@@ -1,0 +1,32 @@
+{
+ "key": "302e73682783eeeaee5d8be154d1bb9eb855f562f1537f3a77cfe58d2838a29e/L/1",
+ "sha256": "302e73682783eeeaee5d8be154d1bb9eb855f562f1537f3a77cfe58d2838a29e",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "65f0e060-52eb-4413-9cd3-e7f0b6ccbba5",
+ "submitted": "2026-10-23T03:40:52.411595+00:00",
+ "completed": "2026-10-23T03:44:07.559461+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 2,
+ "file_drop_evidence": [
+  "/tmp/.tmpuCMHtQ",
+  "/tmp/sd.txt"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.04,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "sd 1.1.0",
+ "role": "benign"
+}

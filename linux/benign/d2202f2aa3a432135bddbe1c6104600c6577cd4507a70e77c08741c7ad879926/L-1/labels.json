@@ -1,0 +1,31 @@
+{
+ "key": "d2202f2aa3a432135bddbe1c6104600c6577cd4507a70e77c08741c7ad879926/L/1",
+ "sha256": "d2202f2aa3a432135bddbe1c6104600c6577cd4507a70e77c08741c7ad879926",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "36e28272-2c71-4761-918b-c1def635f013",
+ "submitted": "2026-10-23T03:37:37.168110+00:00",
+ "completed": "2026-10-23T03:40:52.379723+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 2,
+ "persistence": false,
+ "persistence_evidence": [],
+ "file_drops": 1,
+ "file_drop_evidence": [
+  "/tmp/rh.toml"
+ ],
+ "dns_queries": 1,
+ "connections": 234,
+ "http_requests": 0,
+ "network_intent": true,
+ "sample_lifetime_s": 120.07,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "rathole 0.5.0",
+ "role": "benign"
+}
