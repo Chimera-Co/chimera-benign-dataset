@@ -5,8 +5,13 @@ training and checking the classifier. Every record is one run of one program ins
 Windows or Linux guest. The programs themselves are **not** in this repository: it holds
 only what the sandbox observed.
 
-The data is pushed while the batch runs, so counts grow over time. `summary.json` and
-`report.md` always describe the latest push.
+The v3 batch is complete: 56 Windows and 68 Linux programs, one run each, all `finished`.
+With the earlier batch the repository holds 166 runs. `summary.json` and `report.md`
+describe the v3 batch.
+
+`programs.csv` also lists 20 programs (19 Windows, 1 Linux) that were registered but not
+run before the batch was stopped. Their `run_status` is `not-run-yet` and they have no
+run folders.
 
 ## Layout
 
