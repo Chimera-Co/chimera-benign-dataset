@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T02:09:14+00:00",
+ "generated": "2026-10-23T02:19:18+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,28 +16,28 @@
   "linux": 44
  },
  "done": {
-  "windows": 18,
-  "linux": 28
+  "windows": 20,
+  "linux": 31
  },
  "status": {
   "windows": {
-   "finished": 18
+   "finished": 20
   },
   "linux": {
-   "finished": 28
+   "finished": 31
   }
  },
  "telemetry_complete": {
-  "windows": 18,
-  "linux": 27
+  "windows": 20,
+  "linux": 30
  },
  "payload_behaviour": {
   "windows": 12,
-  "linux": 17
+  "linux": 19
  },
  "persistence": {
   "windows": 2,
-  "linux": 5
+  "linux": 6
  },
  "network_intent": {
   "windows": 6,
@@ -60,12 +60,12 @@
     "payload_behaviour": 1
    },
    "go-backup": {
-    "runs": 1,
-    "finished": 1
+    "runs": 2,
+    "finished": 2
    },
    "installer-inno": {
-    "runs": 2,
-    "finished": 2,
+    "runs": 3,
+    "finished": 3,
     "payload_behaviour": 2
    },
    "installer-msi-wrapper": {
@@ -111,9 +111,9 @@
     "payload_behaviour": 1
    },
    "admin-script-shell": {
-    "runs": 4,
-    "finished": 4,
-    "payload_behaviour": 4
+    "runs": 5,
+    "finished": 5,
+    "payload_behaviour": 5
    },
    "c-cli": {
     "runs": 1,
@@ -130,13 +130,13 @@
     "payload_behaviour": 3
    },
    "go-network": {
-    "runs": 3,
-    "finished": 3,
-    "payload_behaviour": 3
+    "runs": 4,
+    "finished": 4,
+    "payload_behaviour": 4
    },
    "go-server": {
-    "runs": 2,
-    "finished": 2,
+    "runs": 3,
+    "finished": 3,
     "payload_behaviour": 1
    },
    "rust-cli": {
@@ -151,8 +151,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 18,
-  "v3/linux": 28,
+  "v3/windows": 20,
+  "v3/linux": 31,
   "earlier/linux": 12,
   "earlier/windows": 30
  }

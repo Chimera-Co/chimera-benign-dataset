@@ -1,0 +1,39 @@
+{
+ "key": "9f71e8c27fd1452e72bcbf7b97f88eee1ea507cec055aeb4f73c2db7a27085ff/L/1",
+ "sha256": "9f71e8c27fd1452e72bcbf7b97f88eee1ea507cec055aeb4f73c2db7a27085ff",
+ "arm": "L",
+ "run": 1,
+ "os": "linux",
+ "task_uid": "9d328b88-d6e8-42a3-826c-62f405cc6696",
+ "submitted": "2026-10-23T02:08:34.879244+00:00",
+ "completed": "2026-10-23T02:11:55.125226+00:00",
+ "status": "finished",
+ "telemetry_complete": true,
+ "executed": true,
+ "children": 14,
+ "persistence": true,
+ "persistence_evidence": [
+  "/var/spool/cron/crontabs/arjun",
+  "/var/spool/cron/crontabs/tmp.kJxX87"
+ ],
+ "file_drops": 6,
+ "file_drop_evidence": [
+  "/home/arjun/.local/bin",
+  "/home/arjun/.local/bin/health.sh",
+  "/home/arjun/logs",
+  "/home/arjun/logs/health.log",
+  "/var/spool/cron/crontabs/arjun",
+  "/var/spool/cron/crontabs/tmp.kJxX87"
+ ],
+ "dns_queries": 0,
+ "connections": 0,
+ "http_requests": 0,
+ "network_intent": false,
+ "sample_lifetime_s": 0.59,
+ "early_exit": false,
+ "payload_behaviour": true,
+ "sha256_matches": true,
+ "egress_drops": 0,
+ "family": "cron-health 1.0",
+ "role": "benign"
+}
