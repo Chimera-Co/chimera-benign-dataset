@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T04:24:54+00:00",
+ "generated": "2026-10-23T04:25:34+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,23 +16,23 @@
   "linux": 69
  },
  "done": {
-  "windows": 53,
+  "windows": 54,
   "linux": 65
  },
  "status": {
   "windows": {
-   "finished": 53
+   "finished": 54
   },
   "linux": {
    "finished": 65
   }
  },
  "telemetry_complete": {
-  "windows": 53,
+  "windows": 54,
   "linux": 64
  },
  "payload_behaviour": {
-  "windows": 34,
+  "windows": 35,
   "linux": 41
  },
  "persistence": {
@@ -40,7 +40,7 @@
   "linux": 8
  },
  "network_intent": {
-  "windows": 17,
+  "windows": 18,
   "linux": 16
  },
  "by_category": {
@@ -128,9 +128,9 @@
     "payload_behaviour": 2
    },
    "remote-ssh-client": {
-    "runs": 1,
-    "finished": 1,
-    "payload_behaviour": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
    },
    "rust-cli": {
     "runs": 4,
@@ -271,7 +271,7 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 53,
+  "v3/windows": 54,
   "v3/linux": 65,
   "earlier/linux": 12,
   "earlier/windows": 30
