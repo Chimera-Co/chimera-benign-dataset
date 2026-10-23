@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T02:39:24+00:00",
+ "generated": "2026-10-23T02:49:27+00:00",
  "batch": "v3",
  "arms": {
   "windows": [
@@ -16,24 +16,24 @@
   "linux": 44
  },
  "done": {
-  "windows": 26,
-  "linux": 37
+  "windows": 28,
+  "linux": 40
  },
  "status": {
   "windows": {
-   "finished": 26
+   "finished": 28
   },
   "linux": {
-   "finished": 37
+   "finished": 40
   }
  },
  "telemetry_complete": {
-  "windows": 26,
-  "linux": 36
+  "windows": 28,
+  "linux": 39
  },
  "payload_behaviour": {
-  "windows": 16,
-  "linux": 23
+  "windows": 17,
+  "linux": 25
  },
  "persistence": {
   "windows": 3,
@@ -41,7 +41,7 @@
  },
  "network_intent": {
   "windows": 8,
-  "linux": 6
+  "linux": 7
  },
  "by_category": {
   "windows": {
@@ -94,9 +94,9 @@
     "payload_behaviour": 1
    },
    "remote-access-installer": {
-    "runs": 1,
-    "finished": 1,
-    "payload_behaviour": 1
+    "runs": 2,
+    "finished": 2,
+    "payload_behaviour": 2
    },
    "rust-cli": {
     "runs": 2,
@@ -108,8 +108,8 @@
     "payload_behaviour": 1
    },
    "sysinternals-cli": {
-    "runs": 5,
-    "finished": 5,
+    "runs": 6,
+    "finished": 6,
     "payload_behaviour": 1
    },
    "vpn-installer": {
@@ -134,9 +134,9 @@
     "finished": 1
    },
    "go-cli": {
-    "runs": 8,
-    "finished": 8,
-    "payload_behaviour": 5
+    "runs": 9,
+    "finished": 9,
+    "payload_behaviour": 6
    },
    "go-crypto": {
     "runs": 3,
@@ -144,9 +144,9 @@
     "payload_behaviour": 3
    },
    "go-network": {
-    "runs": 4,
-    "finished": 4,
-    "payload_behaviour": 4
+    "runs": 5,
+    "finished": 5,
+    "payload_behaviour": 5
    },
    "go-server": {
     "runs": 3,
@@ -154,8 +154,8 @@
     "payload_behaviour": 1
    },
    "rust-cli": {
-    "runs": 8,
-    "finished": 8,
+    "runs": 9,
+    "finished": 9,
     "payload_behaviour": 2
    },
    "rust-network": {
@@ -169,8 +169,8 @@
   }
  },
  "all_batches_runs_in_repo": {
-  "v3/windows": 26,
-  "v3/linux": 37,
+  "v3/windows": 28,
+  "v3/linux": 40,
   "earlier/linux": 12,
   "earlier/windows": 30
  }
